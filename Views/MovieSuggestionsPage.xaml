@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinemate.Views.MovieSuggestionsPage"
+             Title="Movie suggestions"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Margin="25">
+            <Image Source="moviesuggestions.png" HeightRequest="100" Aspect="AspectFit" SemanticProperties.Description="Movie suggestions photo"/>
+
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Number of suggestions" TextColor="White"/>
+                    <Picker x:Name="noSuggestions" ItemsSource="{Binding NumberOptions}" SelectedItem="{Binding NoSuggestions}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Favorite movie(s)" TextColor="White"/>
+                    <Entry x:Name="favMovies" Text="{Binding FavMovies}" TextColor="White" BackgroundColor="Transparent"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Genre of movie" TextColor="White"/>
+                    <Picker x:Name="genreMovies" ItemsSource="{Binding GenreOptionsKeys}" SelectedItem="{Binding Genre}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Published in the last" TextColor="White"/>
+                    <Picker x:Name="yearsPicker" ItemsSource="{Binding NumberOptions}" SelectedItem="{Binding NoYearsPublished}" WidthRequest="100">
+                    </Picker>
+                    <Label Text="years." TextColor="White"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="Get suggestions" Command="{Binding GetSuggestionsCommand}" BorderWidth="3" BorderColor="OrangeRed" BackgroundColor="Transparent" TextColor="OrangeRed" HorizontalOptions="Center" WidthRequest="200"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Genres>
+    <Genre Name="Action" ID="28"/>
+    <Genre Name="Adventure" ID="12"/>
+    <Genre Name="Animation" ID="16"/>
+    <Genre Name="Comedy" ID="35"/>
+    <Genre Name="Crime" ID="80"/>
+    <Genre Name="Documentary" ID="99"/>
+    <Genre Name="Drama" ID="18"/>
+    <Genre Name="Family" ID="10751"/>
+    <Genre Name="Fantasy" ID="14"/>
+    <Genre Name="History" ID="36"/>
+    <Genre Name="Horror" ID="27"/>
+    <Genre Name="Music" ID="10402"/>
+    <Genre Name="Mystery" ID="9648"/>
+    <Genre Name="Romance" ID="10749"/>
+    <Genre Name="Science Fiction" ID="878"/>
+    <Genre Name="TV Movie" ID="10770"/>
+    <Genre Name="Thriller" ID="53"/>
+    <Genre Name="War" ID="10752"/>
+    <Genre Name="Western" ID="37"/>
+</Genres>

@@ -24,7 +24,7 @@ namespace Cinemate
                 });
 
             builder.Services.AddSingleton<ImageCollection>();
-            builder.Services.AddSingleton<MainViewModel>();
+            builder.Services.AddSingleton<IntroViewModel>();
             builder.Services.AddSingleton<IntroPage>();
 #if DEBUG
             builder.Logging.AddDebug();

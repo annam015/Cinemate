@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cinemate</name>
+    </assembly>
+    <members>
+        <member name="T:Cinemate.Models.IntroViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:Cinemate.Models.IntroViewModel.loadMoreArtCollection01Command">
+            <summary>The backing field for <see cref="P:Cinemate.Models.IntroViewModel.LoadMoreArtCollection01Command"/>.</summary>
+        </member>
+        <member name="P:Cinemate.Models.IntroViewModel.LoadMoreArtCollection01Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.Models.IntroViewModel.LoadMoreArtCollection01"/>.</summary>
+        </member>
+        <member name="F:Cinemate.Models.IntroViewModel.loadMoreArtCollection02Command">
+            <summary>The backing field for <see cref="P:Cinemate.Models.IntroViewModel.LoadMoreArtCollection02Command"/>.</summary>
+        </member>
+        <member name="P:Cinemate.Models.IntroViewModel.LoadMoreArtCollection02Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.Models.IntroViewModel.LoadMoreArtCollection02"/>.</summary>
+        </member>
+        <member name="F:Cinemate.Models.IntroViewModel.loadMoreArtCollection03Command">
+            <summary>The backing field for <see cref="P:Cinemate.Models.IntroViewModel.LoadMoreArtCollection03Command"/>.</summary>
+        </member>
+        <member name="P:Cinemate.Models.IntroViewModel.LoadMoreArtCollection03Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.Models.IntroViewModel.LoadMoreArtCollection03"/>.</summary>
+        </member>
+    </members>
+</doc>

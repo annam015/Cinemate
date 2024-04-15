@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinemate.Views.DiscoverMoviesPage"
+             Title="Discover movies"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Margin="25">
+            <Image Source="findmovie.png" HeightRequest="100" Aspect="AspectFit" SemanticProperties.Description="Discover movies photo"/>
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Release year" TextColor="DodgerBlue"/>
+                    <Picker x:Name="releaseYearPicker" ItemsSource="{Binding ReleaseYears}" SelectedItem="{Binding ReleaseYear}" TextColor="Black"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Select genre" TextColor="DodgerBlue"/>
+                    <Picker x:Name="genresPicker" ItemsSource="{Binding GenreOptionsKeys}" SelectedItem="{Binding Genre}" TextColor="Black"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame CornerRadius="5" BorderColor="DodgerBlue" BackgroundColor="LightSkyBlue" Padding="5" HorizontalOptions="Center" WidthRequest="300" Margin="0,5,0,5">
+                <VerticalStackLayout>
+                    <Label Text="Sort by" TextColor="DodgerBlue"/>
+                    <Picker x:Name="sortByPicker" ItemsSource="{Binding SortOptions}" SelectedItem="{Binding SortBy}" TextColor="Black"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Button Text="Search" Command="{Binding GetMoviesCommand}" BorderWidth="3" BorderColor="OrangeRed" BackgroundColor="Transparent" TextColor="OrangeRed" HorizontalOptions="Center" WidthRequest="200" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
