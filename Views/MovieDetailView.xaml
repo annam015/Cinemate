@@ -118,7 +118,7 @@
             <Border
                 Style="{StaticResource CoverContainerStyle}">
                 <Image 
-                    Source="{Binding Movie.Cover}"
+                    Source="{Binding MovieLibrary.Cover}"
                     Style="{StaticResource CoverImageStyle}"/>
             </Border>
             <Image
@@ -142,12 +142,12 @@
             Style="{StaticResource PaddingContainerStyle}">
             <Label
                 Grid.ColumnSpan="3"
-                Text="{Binding Movie.Title}"
+                Text="{Binding MovieLibrary.Title}"
                 Style="{StaticResource MovieTitleStyle}"/>
             <CollectionView 
                 Grid.ColumnSpan="4"
                 Grid.Row="2"
-                ItemsSource="{Binding Movie.Categories}"
+                ItemsSource="{Binding MovieLibrary.Categories}"
                 Style="{StaticResource CategoriesStyle}">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout
@@ -183,7 +183,7 @@
             <ScrollView
                 Grid.Row="1">
                 <Label                   
-                    Text="{Binding Movie.Summary}"
+                    Text="{Binding MovieLibrary.Summary}"
                     Style="{StaticResource SummaryTextStyle}"
                     LineBreakMode="WordWrap"/>
             </ScrollView>
@@ -194,7 +194,7 @@
             <ScrollView
                 Grid.Row="3">
                 <Label
-                    Text="{Binding Movie.MyReview}"
+                    Text="{Binding MovieLibrary.MyReview}"
                     Style="{StaticResource SummaryTextStyle}"
                     LineBreakMode="WordWrap"/>
             </ScrollView>
@@ -223,7 +223,7 @@
                         Margin="20,10,10,0"/>
                     <Label 
                         Grid.Row="1"
-                        Text="{Binding Movie.Rating}"
+                        Text="{Binding MovieLibrary.Rating}"
                         Style="{StaticResource InfoTitleStyle}"
                         HorizontalOptions="Center"
                         Margin="20,5,10,0"/>
@@ -239,7 +239,7 @@
                         Margin="10,10,10,0"/>
                     <Label
                         Grid.Row="1"
-                        Text="{Binding Movie.Status}"
+                        Text="{Binding MovieLibrary.Status}"
                         Style="{StaticResource InfoTitleStyle}"
                         Margin="10,5,10,0"/>
 
@@ -255,7 +255,7 @@
                         Margin="10,10,10,0"/>
                     <Label
                         Grid.Row="1"
-                        Text="{Binding Movie.StartDate}"
+                        Text="{Binding MovieLibrary.StartDate}"
                         Style="{StaticResource InfoTitleStyle}"
                         Margin="0,5,0,0"/>
                 </Grid>
@@ -266,7 +266,7 @@
                     <Border
                         Style="{StaticResource MetascoreStyle}">
                         <Label
-                            Text="{Binding Movie.Metascore}"
+                            Text="{Binding MovieLibrary.Metascore}"
                             Style="{StaticResource MetascoreTextStyle}"/>
                     </Border>
                     <Label

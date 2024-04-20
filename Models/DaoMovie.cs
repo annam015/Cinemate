@@ -1,9 +1,4 @@
 ﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cinemate.Models
 {
@@ -28,21 +23,23 @@ namespace Cinemate.Models
             return daoMovie;
 
         }
-
-        /*private async Task InitializeDatabaseAsync()
+        public async Task<MovieLibrary> FindMovieById(int id)
         {
-             var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "movie_list.db");
-             conn = new SQLiteAsyncConnection(dbPath);
-             conn.CreateTableAsync<Movie>().Wait();
-        }*/
-
-
+            return await connAsync.FindAsync<MovieLibrary>(id);
+        }
 
         public async Task<int> AddMovie(MovieLibrary movie)
         {
             try
             {
-                return await connAsync.InsertAsync(movie);
+                //return await connAsync.InsertAsync(movie);
+                var result = await connAsync.InsertAsync(movie);
+                if(result != 0)
+                    Console.WriteLine($"Movie '{movie.Title}' added successfully with ID: {movie.Id}");
+                else
+                    Console.WriteLine("Failed to add the movie.");
+
+                return movie.Id;
             }
             catch (Exception ex)
             {
@@ -55,6 +52,7 @@ namespace Cinemate.Models
         {
             try
             {
+                Console.WriteLine($"Trying to delete movie with ID: {movie.Id} and Title: {movie.Title}");
                 return await connAsync.DeleteAsync(movie);
             }
             catch (Exception ex)
@@ -68,7 +66,7 @@ namespace Cinemate.Models
         {
             try
             {
-                return await connAsync.DeleteAllAsync<Movie>();
+                return await connAsync.DeleteAllAsync<MovieLibrary>();
             }
             catch (Exception ex)
             {
@@ -83,11 +81,12 @@ namespace Cinemate.Models
             return connAsync.QueryAsync<MovieLibrary>("SELECT * FROM movie_list");
         }
 
-        //public async Task<int> AddMovieList(List<Movie> movieList)
-        //{
-        //    return await conn.InsertAllAsync(movieList);
-        //}
-
     }
 
 }
+
+
+//public async Task<int> AddMovieList(List<Movie> movieList)
+//{
+//    return await conn.InsertAllAsync(movieList);
+//}

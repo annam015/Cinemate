@@ -8,16 +8,18 @@ namespace Cinemate.ViewModels
     [QueryProperty(nameof(MovieLibrary), "MovieLibrary")]
     public partial class MovieDetailViewModel : ObservableObject, INotifyPropertyChanged
     {
-        //public ObservableCollection<Movie> Movies { get; set; } = new ObservableCollection<Movie>();
-
+        private MovieLibrary _movieLibrary;
 
         [ObservableProperty]
-        MovieLibrary movie;
+        public MovieLibrary movieLibrary;
 
+        private DaoMovie daoMovie = DaoMovie.GetDaoMovie();
 
         [RelayCommand]
-        async Task DeleteMovie()
+        public async Task DeleteMovie()
         {
+            MovieLibrary movieToBeDeleted = await daoMovie.FindMovieById(movieLibrary.Id);
+
             bool deleteConfirmed = await Shell.Current.DisplayAlert(
                 "Delete Movie",
                 "Are you sure you want to delete this movie from your journal?",
@@ -25,24 +27,49 @@ namespace Cinemate.ViewModels
                 "No"
             );
 
-            if (deleteConfirmed && movie != null)
+            if(deleteConfirmed)
             {
-                DaoMovie daoMovie = DaoMovie.GetDaoMovie();
-                await daoMovie.DeleteMovie(movie);
-                //if(result > 0)
-                //{
-                //    Movies.Remove(movie);
-                //}
-
-
-                var remainingMovies = await daoMovie.GetMovies();
-                foreach (var remainingMovie in remainingMovies)
+                if(movieToBeDeleted != null)
                 {
-                    Console.WriteLine($"Remaining Movie: {remainingMovie.Title}");
-                }
+                    Console.WriteLine("Movie found, attempting to delete...");
 
-                await Shell.Current.GoToAsync("..");
+                    int result = await daoMovie.DeleteMovie(movieLibrary);
+                    if (result > 0)
+                        Console.WriteLine("Movie deleted successfully.");
+                    else
+                        Console.WriteLine("Failed to delete movie.");
+
+                    var remainingMovies = await daoMovie.GetMovies();
+                    foreach (var remainingMovie in remainingMovies)
+                    {
+                        Console.WriteLine($"Remaining Movie: {remainingMovie.Title}");
+                    }
+
+                    await Shell.Current.GoToAsync("..");
+                } 
+                else
+                    Console.WriteLine("Movie not found in the database.");
+
             }
+
+            //if (deleteConfirmed && movieLibrary != null)
+            //{
+            //    DaoMovie daoMovie = DaoMovie.GetDaoMovie();
+            //    int result = await daoMovie.DeleteMovie(movieLibrary);
+            //    if (result > 0)
+            //        Console.WriteLine("Movie deleted successfully.");
+            //    else
+            //        Console.WriteLine("Failed to delete movie.");
+
+
+            //    var remainingMovies = await daoMovie.GetMovies();
+            //    foreach (var remainingMovie in remainingMovies)
+            //    {
+            //        Console.WriteLine($"Remaining Movie: {remainingMovie.Title}");
+            //    }
+
+            //    await Shell.Current.GoToAsync("..");
+            //}
         }
 
 
