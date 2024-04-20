@@ -10,6 +10,5 @@ public partial class DiscoverMoviesPage : ContentPage
     {
         InitializeComponent();
         BindingContext = discoverMoviesViewModel;
-        sortByPicker.SelectedIndex = 0;
     }
 }

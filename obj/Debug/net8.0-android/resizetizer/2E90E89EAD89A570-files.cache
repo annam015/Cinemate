@@ -1,4 +1,7 @@
 ﻿obj\Debug\net8.0-android\resizetizer\r\drawable\about.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\background.jpg
+obj\Debug\net8.0-android\resizetizer\r\drawable\bot.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\down_arrow.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\image1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\image10.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\image11.png
@@ -20,6 +23,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\image6.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\image7.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\image8.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\image9.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\up_arrow.png
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\Cinemate\\Cinemate\\Cinemate.csproj": {}
+    "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\Cinemate.csproj": {}
   },
   "projects": {
-    "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\Cinemate\\Cinemate\\Cinemate.csproj": {
+    "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\Cinemate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\Cinemate\\Cinemate\\Cinemate.csproj",
+        "projectUniqueName": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\Cinemate.csproj",
         "projectName": "Cinemate",
-        "projectPath": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\Cinemate\\Cinemate\\Cinemate.csproj",
+        "projectPath": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\Cinemate.csproj",
         "packagesPath": "C:\\Users\\anama\\.nuget\\packages\\",
-        "outputPath": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\Cinemate\\Cinemate\\obj\\",
+        "outputPath": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -66,6 +66,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -80,11 +84,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -129,6 +133,10 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -143,11 +151,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -192,6 +200,10 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -206,11 +218,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -256,6 +268,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -270,11 +286,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.20, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

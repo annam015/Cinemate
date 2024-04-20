@@ -52,6 +52,9 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+background.scale-100.jpg
+bot.scale-100.png
+down_arrow.scale-100.png
 image1.scale-100.png
 image10.scale-100.png
 image11.scale-100.png
@@ -73,10 +76,10 @@ image6.scale-100.png
 image7.scale-100.png
 image8.scale-100.png
 image9.scale-100.png
+up_arrow.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 AboutAssets.txt
-genres.txt

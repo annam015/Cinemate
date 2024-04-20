@@ -5,11 +5,12 @@
              xmlns:templates="clr-namespace:Cinemate.Views.Templates"
              Shell.NavBarIsVisible="False"
              Title="Intro"
-             BackgroundColor="Black">
+             BackgroundColor="{StaticResource AccentColor2}">
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="AccentColor">#BC0000</Color>
+            <Color x:Key="AccentColor">#9399C3</Color>
+            <Color x:Key="AccentColor2">#392A48</Color>
             <Color x:Key="BackgroundColor">#313131</Color>
             <Color x:Key="HeaderColor">#DFDFE0</Color>
 
@@ -17,9 +18,9 @@
                 <Setter Property="HeightRequest" Value="190" />
                 <Setter Property="RadiusX" Value="40" />
                 <Setter Property="Fill" Value="{StaticResource BackgroundColor}" />
-                <Setter Property="Opacity" Value="0.89" />
+                <Setter Property="Opacity" Value="0.8" />
                 <Setter Property="VerticalOptions" Value="Start" />
-                <Setter Property="Margin" Value="14,70,14,0" />
+                <Setter Property="Margin" Value="14,100,14,0" />
             </Style>
 
             <Style x:Key="TitleText01Style" TargetType="Label">
@@ -29,13 +30,13 @@
                 <Setter Property="CharacterSpacing" Value="0.2" />
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Center" />
-                <Setter Property="Margin" Value="0,90,0,0" />
+                <Setter Property="Margin" Value="0,120,0,0" />
                 <Setter Property="VerticalOptions" Value="Start" />
                 <Setter Property="WidthRequest" Value="300" />
             </Style>
 
             <Style x:Key="TitleText02Style" TargetType="Label">
-                <Setter Property="TextColor" Value="#FF0000" />
+                <Setter Property="TextColor" Value="{StaticResource AccentColor}"/>
                 <Setter Property="FontFamily" Value="TekoBold" />
                 <Setter Property="FontSize" Value="40" />
                 <Setter Property="CharacterSpacing" Value="2.5" />

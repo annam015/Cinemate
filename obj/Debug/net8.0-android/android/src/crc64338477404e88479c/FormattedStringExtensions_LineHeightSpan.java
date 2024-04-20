@@ -27,11 +27,11 @@ public class FormattedStringExtensions_LineHeightSpan
 		}
 	}
 
-	public FormattedStringExtensions_LineHeightSpan (double p0)
+	public FormattedStringExtensions_LineHeightSpan (double p0, double p1)
 	{
 		super ();
 		if (getClass () == FormattedStringExtensions_LineHeightSpan.class) {
-			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.FormattedStringExtensions+LineHeightSpan, Microsoft.Maui.Controls", "System.Double, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.FormattedStringExtensions+LineHeightSpan, Microsoft.Maui.Controls", "System.Double, System.Private.CoreLib:System.Double, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1 });
 		}
 	}
 

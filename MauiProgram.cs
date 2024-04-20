@@ -1,6 +1,8 @@
 ﻿using Cinemate.Models;
 using Cinemate.Views;
+using Cinemate.Services;
 using Microsoft.Extensions.Logging;
+using CommunityToolkit.Maui;
 
 namespace Cinemate
 {
@@ -11,6 +13,7 @@ namespace Cinemate
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -26,6 +29,7 @@ namespace Cinemate
             builder.Services.AddSingleton<ImageCollection>();
             builder.Services.AddSingleton<IntroViewModel>();
             builder.Services.AddSingleton<IntroPage>();
+            FormHandler.RemoveBorders();
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
