@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\moviedetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\moviedetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\moviescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:models\\moviescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\viewmodels\\moviedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:viewmodels\\moviedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\viewmodels\\moviesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:viewmodels\\moviesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\moviescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:models\\moviescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\daomovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:models\\daomovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\moviesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\moviesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\viewmodels\\moviedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:viewmodels\\moviedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\moviedetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\moviedetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,30 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MoviesView.xaml",
-              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MoviesView.xaml",
-              "RelativeDocumentMoniker": "Views\\MoviesView.xaml",
-              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MoviesView.xaml",
-              "RelativeToolTip": "Views\\MoviesView.xaml",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAiwIIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-20T20:31:55.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MoviesCollection.cs",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\MoviesCollection.cs",
               "RelativeDocumentMoniker": "Models\\MoviesCollection.cs",
               "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\MoviesCollection.cs",
               "RelativeToolTip": "Models\\MoviesCollection.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDUAAAC9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T17:36:16.919Z",
               "EditorCaption": ""
@@ -77,39 +60,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MoviesViewModel.cs",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MoviesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MoviesViewModel.cs",
               "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MoviesViewModel.cs",
               "RelativeToolTip": "ViewModels\\MoviesViewModel.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAqwJ4AAAARAAAA",
+              "ViewState": "AQIAANAAAAAAAAAAAADwv+0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T15:09:00.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MovieDetailViewModel.cs",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MovieDetailViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MovieDetailViewModel.cs",
               "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MovieDetailViewModel.cs",
               "RelativeToolTip": "ViewModels\\MovieDetailViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAIAwwDIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T15:06:43.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MovieDetailView.xaml",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MovieDetailView.xaml",
               "RelativeDocumentMoniker": "Views\\MovieDetailView.xaml",
               "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MovieDetailView.xaml",
               "RelativeToolTip": "Views\\MovieDetailView.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOkAAAAqAAAA",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAAOkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-20T15:02:14.902Z",
               "EditorCaption": ""

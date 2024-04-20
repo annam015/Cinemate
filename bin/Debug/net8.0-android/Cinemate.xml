@@ -217,6 +217,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:Cinemate.ViewModels.MoviesViewModel.EntriesCount">
             <inheritdoc cref="F:Cinemate.ViewModels.MoviesViewModel.entriesCount"/>
@@ -229,6 +230,22 @@
         </member>
         <member name="P:Cinemate.ViewModels.MoviesViewModel.SelectedFilterOption">
             <inheritdoc cref="F:Cinemate.ViewModels.MoviesViewModel.selectedFilterOption"/>
+        </member>
+        <member name="M:Cinemate.ViewModels.MoviesViewModel.OnSelectedSourceChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:Cinemate.ViewModels.MoviesViewModel.SelectedSource"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:Cinemate.ViewModels.MoviesViewModel.SelectedSource"/> is changed.</remarks>
+        </member>
+        <member name="M:Cinemate.ViewModels.MoviesViewModel.OnSelectedFilterOptionChanged(Cinemate.Models.FilterOption)">
+            <summary>Executes the logic for when <see cref="P:Cinemate.ViewModels.MoviesViewModel.SelectedFilterOption"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:Cinemate.ViewModels.MoviesViewModel.SelectedFilterOption"/> is changed.</remarks>
+        </member>
+        <member name="F:Cinemate.ViewModels.MoviesViewModel.selectFilterOptionCommand">
+            <summary>The backing field for <see cref="P:Cinemate.ViewModels.MoviesViewModel.SelectFilterOptionCommand"/>.</summary>
+        </member>
+        <member name="P:Cinemate.ViewModels.MoviesViewModel.SelectFilterOptionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Cinemate.ViewModels.MoviesViewModel.SelectFilterOption(Cinemate.Models.FilterOption)"/>.</summary>
         </member>
         <member name="F:Cinemate.ViewModels.MoviesViewModel.applyFiltersCommand">
             <summary>The backing field for <see cref="P:Cinemate.ViewModels.MoviesViewModel.ApplyFiltersCommand"/>.</summary>
