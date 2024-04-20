@@ -3,6 +3,7 @@ using Cinemate.Views;
 using Cinemate.Services;
 using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
+using Cinemate.ViewModels;
 
 namespace Cinemate
 {
@@ -29,6 +30,16 @@ namespace Cinemate
             builder.Services.AddSingleton<ImageCollection>();
             builder.Services.AddSingleton<IntroViewModel>();
             builder.Services.AddSingleton<IntroPage>();
+
+            builder.Services.AddSingleton<MoviesCollection>();
+            builder.Services.AddSingleton<MoviesViewModel>();
+            builder.Services.AddSingleton<MoviesView>();
+
+            builder.Services.AddTransient<AddMovieToMyListViewModel>();
+            builder.Services.AddTransient<AddMovieToMyList>();
+            builder.Services.AddTransient<MovieDetailViewModel>();
+            builder.Services.AddTransient<MovieDetailView>();
+
             FormHandler.RemoveBorders();
 #if DEBUG
             builder.Logging.AddDebug();

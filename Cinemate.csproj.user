@@ -14,6 +14,9 @@
     <MauiXaml Update="Views\AboutPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\AddMovieToMyList.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\ArticleContentPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -26,10 +29,19 @@
     <MauiXaml Update="Views\IntroPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\MovieDetailView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\MovieSuggestionsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\MoviesView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\SuggestedMoviesPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Templates\CategoryItemTemplate.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Templates\DiscoveredMoviesTemplate.xaml">
@@ -38,7 +50,13 @@
     <MauiXaml Update="Views\Templates\ImageItemTemplate.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Templates\MovieItemTemplate.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Templates\NewsPageTemplate.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Templates\SourceItemTemplate.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

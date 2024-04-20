@@ -9,6 +9,11 @@ namespace Cinemate.Views
         int imgIndex02;
         int imgIndex03;
 
+        public IntroPage()
+        {
+            InitializeComponent();
+        }
+
         public IntroPage(IntroViewModel viewModel)
         {
             InitializeComponent();

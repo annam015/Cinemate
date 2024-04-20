@@ -40,7 +40,8 @@ namespace Cinemate.ViewModels
                     {
                         await daoNews.DeleteAllArticles();
                         await daoNews.AddListArticles(ArticlesList);
-                    } else
+                    }
+                    else
                     {
                         await Shell.Current.DisplayAlert("Error", "The page could not be loaded properly. Please check your internet connection and try again.", "OK");
                         await Shell.Current.Navigation.PopAsync();

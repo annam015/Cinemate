@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.AboutPage.x
 build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
 
+[D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/AddMovieToMyList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.AddMovieToMyList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddMovieToMyList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddMovieToMyList.xaml
+
 [D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/ArticleContentPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.ArticleContentPage.xaml
@@ -70,17 +76,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.IntroPage.x
 build_metadata.AdditionalFiles.TargetPath = Views\IntroPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\IntroPage.xaml
 
+[D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/MovieDetailView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.MovieDetailView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MovieDetailView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MovieDetailView.xaml
+
 [D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/MovieSuggestionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.MovieSuggestionsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MovieSuggestionsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MovieSuggestionsPage.xaml
 
+[D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/MoviesView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.MoviesView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MoviesView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MoviesView.xaml
+
 [D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/SuggestedMoviesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.SuggestedMoviesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SuggestedMoviesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SuggestedMoviesPage.xaml
+
+[D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/Templates/CategoryItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.Templates.CategoryItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\CategoryItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\CategoryItemTemplate.xaml
 
 [D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/Templates/DiscoveredMoviesTemplate.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -94,8 +118,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.Templates.I
 build_metadata.AdditionalFiles.TargetPath = Views\Templates\ImageItemTemplate.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Templates\ImageItemTemplate.xaml
 
+[D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/Templates/MovieItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.Templates.MovieItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\MovieItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\MovieItemTemplate.xaml
+
 [D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/Templates/NewsPageTemplate.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.Templates.NewsPageTemplate.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Templates\NewsPageTemplate.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Templates\NewsPageTemplate.xaml
+
+[D:/Master/An 1 Sem 2/Programarea dispozitivelor mobile/CineMate/Cinemate/Views/Templates/SourceItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cinemate.Views.Templates.SourceItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\SourceItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\SourceItemTemplate.xaml

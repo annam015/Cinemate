@@ -34,4 +34,9 @@
         ContentTemplate="{DataTemplate templates:NewsPageTemplate}"
         Route="NewsPage" />
 
+    <ShellContent
+        Title="Movie collection"
+        ContentTemplate="{DataTemplate local:MoviesView}"
+        Route="MoviesView" />
+
 </Shell>
