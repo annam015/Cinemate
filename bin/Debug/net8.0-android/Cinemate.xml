@@ -33,53 +33,6 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsActionSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isActionSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsAdventureSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isAdventureSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsAnimationSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isAnimationSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsComedySelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isComedySelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsCrimeSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isCrimeSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsDramaSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isDramaSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsFamilySelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isFamilySelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsHistorySelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isHistorySelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsHorrorSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isHorrorSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsMusicSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isMusicSelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsMysterySelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isMysterySelected"/>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.IsRomanceSelected">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.isRomanceSelected"/>
         </member>
         <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.SelectedImageSource">
             <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.selectedImageSource"/>
@@ -96,9 +49,6 @@
         <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.StartDate">
             <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.startDate"/>
         </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.Rating">
-            <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.rating"/>
-        </member>
         <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.SelectedStatus">
             <inheritdoc cref="F:Cinemate.ViewModels.AddMovieToMyListViewModel.selectedStatus"/>
         </member>
@@ -108,83 +58,17 @@
         <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.PickImageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.PickImage"/>.</summary>
         </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.addMovieCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.AddMovieCommand"/>.</summary>
+        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.submitMovieCommand">
+            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.SubmitMovieCommand"/>.</summary>
         </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.AddMovieCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.AddMovie"/>.</summary>
+        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.SubmitMovieCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.SubmitMovie"/>.</summary>
         </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleActionCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleActionCommand"/>.</summary>
+        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleCategoryCommand">
+            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleCategoryCommand"/>.</summary>
         </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleActionCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAction"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleAdventureCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAdventureCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAdventureCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAdventure"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleAnimationCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAnimationCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAnimationCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleAnimation"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleComedyCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleComedyCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleComedyCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleComedy"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleCrimeCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleCrimeCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleCrimeCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleCrime"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleDramaCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleDramaCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleDramaCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleDrama"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleFamilyCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleFamilyCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleFamilyCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleFamily"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleHistoryCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleHistoryCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleHistoryCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleHistory"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleHorrorCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleHorrorCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleHorrorCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleHorror"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleMusicCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleMusicCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleMusicCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleMusic"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleMysteryCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleMysteryCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleMysteryCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleMystery"/>.</summary>
-        </member>
-        <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.toggleRomanceCommand">
-            <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleRomanceCommand"/>.</summary>
-        </member>
-        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleRomanceCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleRomance"/>.</summary>
+        <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.ToggleCategory(System.String)"/>.</summary>
         </member>
         <member name="F:Cinemate.ViewModels.AddMovieToMyListViewModel.goBackCommand">
             <summary>The backing field for <see cref="P:Cinemate.ViewModels.AddMovieToMyListViewModel.GoBackCommand"/>.</summary>
@@ -394,42 +278,6 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsActionSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsActionSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsAdventureSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsAdventureSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsAnimationSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsAnimationSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsComedySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsComedySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsCrimeSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsCrimeSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsDramaSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsDramaSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsFamilySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsFamilySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsHistorySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsHistorySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsHorrorSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsHorrorSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsMusicSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsMusicSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsMysterySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsMysterySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRomanceSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRomanceSelected" generated properties.</summary>
-        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedImageSource">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedImageSource" generated properties.</summary>
         </member>
@@ -444,9 +292,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartDate">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartDate" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Rating">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Rating" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedStatus">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedStatus" generated properties.</summary>
@@ -475,42 +320,6 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsActionSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsActionSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsAdventureSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsAdventureSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsAnimationSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsAnimationSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsComedySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsComedySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsCrimeSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsCrimeSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsDramaSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsDramaSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsFamilySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsFamilySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsHistorySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsHistorySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsHorrorSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsHorrorSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsMusicSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsMusicSelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsMysterySelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsMysterySelected" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRomanceSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRomanceSelected" generated properties.</summary>
-        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedImageSource">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedImageSource" generated properties.</summary>
         </member>
@@ -525,9 +334,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartDate">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartDate" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Rating">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Rating" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedStatus">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedStatus" generated properties.</summary>

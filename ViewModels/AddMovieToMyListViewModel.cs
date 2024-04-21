@@ -8,42 +8,31 @@ namespace Cinemate.ViewModels
 {
     public partial class AddMovieToMyListViewModel : ObservableObject, INotifyPropertyChanged
     {
-        //private readonly MovieLibrary movieLibrary;
-        DaoMovie daoMovie = DaoMovie.GetDaoMovie();
-
+        private DaoMovie daoMovie = DaoMovie.GetDaoMovie();
         private Stream stream;
 
-        [ObservableProperty]
-        private bool isActionSelected;
-        [ObservableProperty]
-        private bool isAdventureSelected;
-        [ObservableProperty]
-        private bool isAnimationSelected;
-        [ObservableProperty]
-        private bool isComedySelected;
-        [ObservableProperty]
-        private bool isCrimeSelected;
-        [ObservableProperty]
-        private bool isDramaSelected;
-        [ObservableProperty]
-        private bool isFamilySelected;
-        [ObservableProperty]
-        private bool isHistorySelected;
-        [ObservableProperty]
-        private bool isHorrorSelected;
-        [ObservableProperty]
-        private bool isMusicSelected;
-        [ObservableProperty]
-        private bool isMysterySelected;
-        [ObservableProperty]
-        private bool isRomanceSelected;
-
-
+        public Dictionary<string,bool> CategorySelections { get; set; }
         public List<string> MovieOptions { get; set; }
 
         public AddMovieToMyListViewModel()
         {
             MovieOptions = PickerOptions.MovieStatuses;
+
+            CategorySelections = new Dictionary<string, bool>
+            {
+                { "Action", false },
+                { "Adventure", false },
+                { "Animation", false },
+                { "Comedy", false },
+                { "Crime", false },
+                { "Drama", false },
+                { "Family", false },
+                { "History", false },
+                { "Horror", false },
+                { "Music", false },
+                { "Mystery", false },
+                { "Romance", false }
+            };
         }
 
 
@@ -81,130 +70,83 @@ namespace Cinemate.ViewModels
         private DateTime startDate = DateTime.Today;
 
         [ObservableProperty]
-        private double rating;
-
-        [ObservableProperty]
         private string selectedStatus;
-        // imaginea
-        //[ObservableProperty]
-        //private string selectedImage;
 
+        private bool isRatingSet = false;
+        private double rating;
+        public double Rating
+        {
+            get => rating;
+            set
+            {
+                SetProperty(ref rating, NormalizeRating(value));
+                isRatingSet = true;  
+            }
+        }
 
+        private double NormalizeRating(double inputRating)
+        {
+            double normalizedRating = Math.Abs(inputRating);
+
+            while (normalizedRating > 10)
+            {
+                normalizedRating -= 10;
+            }
+
+            return Math.Round(normalizedRating, 1);
+        }
 
         public List<string> GetSelectedCategories()
         {
-            var selectedCategories = new List<string>();
-            if (IsActionSelected) selectedCategories.Add("Action");
-            if (IsAdventureSelected) selectedCategories.Add("Adventure");
-            if (IsAnimationSelected) selectedCategories.Add("Animation");
-            if (IsComedySelected) selectedCategories.Add("Comedy");
-            if (IsCrimeSelected) selectedCategories.Add("Crime");
-            if (IsDramaSelected) selectedCategories.Add("Drama");
-            if (IsFamilySelected) selectedCategories.Add("Family");
-            if (IsHistorySelected) selectedCategories.Add("History");
-            if (IsHorrorSelected) selectedCategories.Add("Horror");
-            if (IsMusicSelected) selectedCategories.Add("Music");
-            if (IsMysterySelected) selectedCategories.Add("Mystery");
-            if (IsRomanceSelected) selectedCategories.Add("Romance");
-
-            return selectedCategories;
+            return CategorySelections.Where(pair => pair.Value).Select(pair => pair.Key).ToList();
         }
 
-
         [RelayCommand]
-        public async Task AddMovie()
+        public async Task SubmitMovie()
         {
             var selectedCategories = GetSelectedCategories();
             var random = new Random();
 
+            if (string.IsNullOrWhiteSpace(Title) || !isRatingSet || string.IsNullOrWhiteSpace(Summary) || string.IsNullOrWhiteSpace(MyReview) ||
+                string.IsNullOrWhiteSpace(SelectedStatus) || selectedCategories == null || selectedCategories.Count == 0 || stream == null)
+            {
+                await Shell.Current.DisplayAlert("Validation Error", "Please ensure all fields including image, genre, title, rating, summary, and review are filled out and at least one genre is selected.", "OK");
+                return;
+            }
+
             var newMovie = new MovieLibrary
             {
                 Title = this.Title,
+                Cover = ImageConverter.ImageToBase64(stream),
                 Rating = this.Rating,
+                Reviews = random.Next(1000, 5000),
+                Metascore = random.Next(50, 100),
+                CriticReviews = random.Next(100, 500),
                 StartDate = this.StartDate.ToString("dd-MM-yyyy"),
+                Status = this.SelectedStatus,
                 Summary = this.Summary,
                 MyReview = this.MyReview,
-                Status = this.SelectedStatus,
-                Categories = selectedCategories,
-                Cover = ImageConverter.ImageToBase64(stream)
+                Categories = selectedCategories              
             };
 
-            newMovie.Reviews = random.Next(1000, 5000);
-            newMovie.Metascore = random.Next(50, 100);
-            newMovie.CriticReviews = random.Next(100, 500);
             await daoMovie.AddMovie(newMovie);
             Console.WriteLine("Movie added successfully.");
-            // ceva cu imaginea
-            // adaugare in baza de date + lista
-            // binding in xaml
 
-           // await Shell.Current.GoToAsync("..");
-           await Shell.Current.GoToAsync("MoviesView");
+            // await Shell.Current.GoToAsync("..");
+            await Shell.Current.GoToAsync("MoviesView");
         }
 
-
         [RelayCommand]
-        void ToggleAction()
+        void ToggleCategory(string categoryName)
         {
-            IsActionSelected = !IsActionSelected;
-        }
-        [RelayCommand]
-        void ToggleAdventure()
-        {
-            IsAdventureSelected = !IsAdventureSelected;
-        }
-        [RelayCommand]
-        void ToggleAnimation()
-        {
-            IsAnimationSelected = !IsAnimationSelected;
-        }
-        [RelayCommand]
-        void ToggleComedy()
-        {
-            IsComedySelected = !IsComedySelected;
-        }
-        [RelayCommand]
-        void ToggleCrime()
-        {
-            IsCrimeSelected = !IsCrimeSelected;
-        }
-        [RelayCommand]
-        void ToggleDrama()
-        {
-            IsDramaSelected = !IsDramaSelected;
-        }
-        [RelayCommand]
-        void ToggleFamily()
-        {
-            IsFamilySelected = !IsFamilySelected;
-        }
-        [RelayCommand]
-        void ToggleHistory()
-        {
-            IsHistorySelected = !IsHistorySelected;
-        }
-        [RelayCommand]
-        void ToggleHorror()
-        {
-            IsHorrorSelected = !IsHorrorSelected;
-        }
-        [RelayCommand]
-        void ToggleMusic()
-        {
-            IsMusicSelected = !IsMusicSelected;
-        }
-        [RelayCommand]
-        void ToggleMystery()
-        {
-            IsMysterySelected = !IsMysterySelected;
-        }
-        [RelayCommand]
-        void ToggleRomance()
-        {
-            IsRomanceSelected = !IsRomanceSelected;
+            if (CategorySelections.ContainsKey(categoryName))
+            {
+                CategorySelections[categoryName] = !CategorySelections[categoryName];
+                OnPropertyChanged(nameof(CategorySelections));
+            }
         }
 
-
+        
         [RelayCommand]
         async Task GoBack()
         {

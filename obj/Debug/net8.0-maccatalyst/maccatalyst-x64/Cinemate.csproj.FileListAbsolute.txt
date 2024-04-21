@@ -693,3 +693,11 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-macca
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Cinemate.pdb
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Cinemate.genruntimeconfig.cache
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\Cinemate.dll
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Semibold.ttf
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Teko-Bold.ttf
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Teko-Light.ttf
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Teko-Medium.ttf
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Teko-Regular.ttf
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Teko-SemiBold.ttf
