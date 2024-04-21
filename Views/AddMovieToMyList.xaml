@@ -81,7 +81,11 @@
                     Grid.Row="1" 
                     Style="{StaticResource SubmitIconStyle}"
                     VerticalOptions="End"
-                    HorizontalOptions="End"/>
+                    HorizontalOptions="End">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AddMovie}"/>
+                    </Image.GestureRecognizers>
+                </Image>
             </Grid>
         </Grid>
 
@@ -462,7 +466,7 @@
                                         Margin="-50,20,2,0"/>
                                     <Component:DropDown
                                         Options="{Binding MovieOptions}"
-                                        SelectedOption="{Binding SelectedMovieStatus}"
+                                        SelectedOption="{Binding SelectedStatus}"
                                         Margin="10,10,-50,0"                                      
                                         ColorBorder="{StaticResource Gray100}">
                                     </Component:DropDown>
@@ -524,7 +528,7 @@
                                             HorizontalTextAlignment="Center"
                                             VerticalTextAlignment="Center"
                                             Keyboard="Numeric"
-                                            Text="{Binding Score, Mode=TwoWay}"
+                                            Text="{Binding Rating, Mode=TwoWay}"
                                             Placeholder="Score"/>
                                     </Frame>
                                     <Image 
@@ -578,7 +582,7 @@
                                     CornerRadius="5">
                                     <Editor
                                         BackgroundColor="Transparent"
-                                        Text="{Binding PlotSummary, Mode=TwoWay}"
+                                        Text="{Binding Summary, Mode=TwoWay}"
                                         Placeholder="Enter plot summary"/>
                                 </Frame>
                             </Grid>

@@ -1,4 +1,5 @@
 ﻿using Cinemate.Models;
+using Cinemate.Models.Cinemate.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.ComponentModel;
@@ -7,6 +8,11 @@ namespace Cinemate.ViewModels
 {
     public partial class AddMovieToMyListViewModel : ObservableObject, INotifyPropertyChanged
     {
+        //private readonly MovieLibrary movieLibrary;
+        DaoMovie daoMovie = DaoMovie.GetDaoMovie();
+
+        private Stream stream;
+
         [ObservableProperty]
         private bool isActionSelected;
         [ObservableProperty]
@@ -56,8 +62,8 @@ namespace Cinemate.ViewModels
             if (result == null)
                 return;
 
-            var stream = await result.OpenReadAsync();
-
+            //var stream = await result.OpenReadAsync();
+            stream = await result.OpenReadAsync();
             SelectedImageSource = ImageSource.FromStream(() => stream);
         }
 
@@ -119,18 +125,21 @@ namespace Cinemate.ViewModels
                 Summary = this.Summary,
                 MyReview = this.MyReview,
                 Status = this.SelectedStatus,
-                Categories = selectedCategories
+                Categories = selectedCategories,
+                Cover = ImageConverter.ImageToBase64(stream)
             };
 
             newMovie.Reviews = random.Next(1000, 5000);
             newMovie.Metascore = random.Next(50, 100);
             newMovie.CriticReviews = random.Next(100, 500);
-
+            await daoMovie.AddMovie(newMovie);
+            Console.WriteLine("Movie added successfully.");
             // ceva cu imaginea
             // adaugare in baza de date + lista
             // binding in xaml
 
-            await Shell.Current.GoToAsync("..");
+           // await Shell.Current.GoToAsync("..");
+           await Shell.Current.GoToAsync("MoviesView");
         }
 
 

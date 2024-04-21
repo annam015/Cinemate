@@ -9,4 +9,14 @@ public partial class MoviesView : ContentPage
 		InitializeComponent();
         BindingContext = viewModel;
     }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        var viewModel = BindingContext as MoviesViewModel;
+        if (viewModel != null)
+        {
+            viewModel.LoadData();
+        }
+    }
 }

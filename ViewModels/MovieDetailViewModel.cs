@@ -49,8 +49,9 @@ namespace Cinemate.ViewModels
                 } 
                 else
                     Console.WriteLine("Movie not found in the database.");
-
+                await Shell.Current.GoToAsync("..");
             }
+
 
             //if (deleteConfirmed && movieLibrary != null)
             //{

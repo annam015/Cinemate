@@ -130,7 +130,7 @@
             <CollectionView
                 x:Name="filterCollectionView"
                 ItemsSource="{Binding FilterOptions}"
-                SelectedItem="{Binding SelectedFilterSource, Mode=TwoWay}"
+                SelectedItem="{Binding SelectFilterSource, Mode=TwoWay}"
                 SelectionMode="Single"
                 Margin="-5, 10, 10, 0">
                 <CollectionView.ItemsLayout>
@@ -182,7 +182,8 @@
 
         <CarouselView
             Grid.Row="3"
-            ItemsSource="{Binding Movies}" 
+            ItemsSource="{Binding FilteredMovies}" 
+            Position="{Binding CarouselPosition, Mode=TwoWay}"
             PeekAreaInsets="10"
             Margin="0,25,0,10"
             Loop="False">

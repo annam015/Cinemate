@@ -2,7 +2,7 @@
 {
     public class MoviesCollection
     {
-        public IEnumerable<string> GetFilterOptions()
+        public List<string> GetFilterOptions()
         {
             return new List<string>
             {
@@ -14,7 +14,7 @@
             };
         }
 
-        public IEnumerable<string> GetMovieSources()
+        public List<string> GetMovieSources()
         {
             return new List<string>
             {

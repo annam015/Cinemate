@@ -9,9 +9,11 @@ namespace Cinemate.ViewModels
 {
     public partial class MoviesViewModel : ObservableObject
     {
-        //private readonly MoviesCollection movies;
         private readonly MoviesCollection moviesCollection;
         private readonly DaoMovie daoMovie;
+
+        [ObservableProperty]
+        public int carouselPosition;
 
         [ObservableProperty]
         private int entriesCount;
@@ -25,118 +27,49 @@ namespace Cinemate.ViewModels
         [ObservableProperty]
         private FilterOption selectedFilterOption;
 
-        public ObservableCollection<string> Sources { get; } = new ObservableCollection<string>();
-        public ObservableCollection<string> Categories { get; } = new ObservableCollection<string>();
-        //public List<MovieLibrary> Movies { get; set; } = new List<MovieLibrary>();
-        public ObservableCollection<MovieLibrary> Movies { get; } = new ObservableCollection<MovieLibrary>();
+        public List<MovieLibrary> listTest;
+        public ObservableCollection<MovieLibrary> FilteredMovies { get; set; } = new ObservableCollection<MovieLibrary>();
+
+        public ObservableCollection<string> Sources { get; set; } = new ObservableCollection<string>();
+        public List<MovieLibrary> Movies { get; set; }
         public ObservableCollection<FilterOption> FilterOptions { get; } = new ObservableCollection<FilterOption>();
+
 
 
         public MoviesViewModel(MoviesCollection moviesCollection)
         {
-            //movies = moviesCollection;
             this.moviesCollection = moviesCollection;
             daoMovie = DaoMovie.GetDaoMovie();
+
+            //addMoviesToDB();
             LoadData();
         }
 
-        //DaoMovie daoMovie = DaoMovie.GetDaoMovie();
-
-        async void LoadData()
+        async void addMoviesToDB()
         {
-            //try
-            //{
-            //    var moviesFromDb = await daoMovie.GetMovies();
-
-            //    Movies.Clear();
-            //    foreach (var movie in moviesFromDb)
-            //        Movies.Add(movie);
-
-            //    LoadSourcesAndCategories();
-            //    SetupFilterOptions();
-
-            //    SelectedSource = "All";
-            //    ApplyFilters();
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine($"Error loading data: {ex.Message}");
-            //}
-
-            //try
-            //{
-            //    daoMovie.DeleteAllMovie();
-            //}
-            //catch (Exception e)
-            //{
-            //    Console.WriteLine($"Error deleting all movies: {e.Message}");
-            //}
-
-            //movies.AddToDB();
-            //Movies = daoMovie.GetMovies().Result;
-
-            try
+            foreach (var movie in moviesCollection.GetMovies())
             {
-                var moviesFromDb = await daoMovie.GetMovies();
-                Movies.Clear();
-                foreach (var movie in moviesFromDb)
-                    Movies.Add(movie);
-            } 
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error deleting all movies: {ex.Message}");
+                daoMovie.AddMovie(movie);
             }
+        }
 
+        public async void LoadData()
+        {
+            Movies = await daoMovie.GetMovies();
 
-            Sources.Clear();
-            foreach (var source in moviesCollection.GetMovieSources())
+            foreach(var source in moviesCollection.GetMovieSources())
             {
                 Sources.Add(source);
             }
+            foreach (string option in moviesCollection.GetFilterOptions())
+            {
+                FilterOptions.Add(new FilterOption { Name = option, IsSelected = false });
+            }
+
             SelectedSource = "All";
-
-            Categories.Clear();
-            foreach (var category in moviesCollection.GetMovieCategories())
-            {
-                Categories.Add(category);
-            }
-
-            Movies.Clear();
-            foreach (var movie in moviesCollection.GetMovies())
-            {
-                Movies.Add(movie);
-            }
-
-            FilterOptions.Clear();
-            foreach (var option in moviesCollection.GetFilterOptions())
-            {
-                var filterOption = new FilterOption { Name = option, IsSelected = false };
-                FilterOptions.Add(filterOption);
-            }
-
             SelectedFilterOption = FilterOptions.FirstOrDefault();
             ApplyFilters();
         }
-
-        //private void LoadSourcesAndCategories()
-        //{
-        //    Sources.Clear();
-        //    foreach (var source in moviesCollection.GetMovieSources())
-        //        Sources.Add(source);
-
-        //    Categories.Clear();
-        //    foreach (var category in moviesCollection.GetMovieCategories())
-        //        Categories.Add(category);
-        //}
-
-        //private void SetupFilterOptions()
-        //{
-        //    FilterOptions.Clear();
-        //    foreach (var option in moviesCollection.GetFilterOptions())
-        //        FilterOptions.Add(new FilterOption { Name = option, IsSelected = false });
-
-        //    SelectedFilterOption = FilterOptions.FirstOrDefault();
-        //}
 
         [RelayCommand]
         void SelectFilterOption(FilterOption option)
@@ -156,57 +89,23 @@ namespace Cinemate.ViewModels
             ApplyFilters();
         }
 
+        private async Task ResetCarouselPosition()
+        {
+            await Task.Delay(500);
+            CarouselPosition = 0;
+        }
 
         [RelayCommand]
         void ApplyFilters()
         {
-            //var filteredMovies = Movies.ToList();
-
-            //if (!string.IsNullOrEmpty(SelectedSource) && SelectedSource != "All")
-            //{
-            //    filteredMovies = filteredMovies.Where(m => m.Status == SelectedSource).ToList();
-            //}
-
-            //if (SelectedFilterOption != null)
-            //{
-            //    switch (SelectedFilterOption.Name)
-            //    {
-            //        case "A - Z":
-            //            filteredMovies = filteredMovies.OrderBy(m => m.Title).ToList();
-            //            break;
-            //        case "Z - A":
-            //            filteredMovies = filteredMovies.OrderByDescending(m => m.Title).ToList();
-            //            break;
-            //        case "Score":
-            //            filteredMovies = filteredMovies.OrderByDescending(m => m.Rating).ToList();
-            //            break;
-            //        case "Upcoming":
-            //            filteredMovies = filteredMovies
-            //                .Where(m => DateTime.ParseExact(m.StartDate, "dd-MM-yyyy", CultureInfo.InvariantCulture) >= DateTime.Today)
-            //                .OrderBy(m => m.StartDate).ToList();
-            //            break;
-            //        case "Past":
-            //            filteredMovies = filteredMovies
-            //                .Where(m => DateTime.ParseExact(m.StartDate, "dd-MM-yyyy", CultureInfo.InvariantCulture) < DateTime.Today)                                                     
-            //                .OrderByDescending(m => m.StartDate).ToList();
-            //            break;
-            //    }
-            //}
-
-            //Movies.Clear();
-            //foreach (var movie in filteredMovies)
-            //{
-            //    Movies.Add(movie);
-            //}
-
-            //EntriesCount = Movies.Count;
-
-            var filteredMovies = Movies.ToList();
             var currentDate = DateTime.Today;
-
-            if (!string.IsNullOrEmpty(SelectedSource) && SelectedSource != "All")
+            if (SelectedSource == "All")
             {
-                filteredMovies = Movies.Where(m => m.Status == SelectedSource).ToList();
+                listTest = Movies;
+            }
+            else if (!string.IsNullOrEmpty(SelectedSource))
+            {
+                listTest = Movies.Where(m => m.Status == SelectedSource).ToList();
             }
 
             if (SelectedFilterOption != null)
@@ -214,34 +113,33 @@ namespace Cinemate.ViewModels
                 switch (SelectedFilterOption.Name)
                 {
                     case "A - Z":
-                        filteredMovies = Movies.OrderBy(m => m.Title).ToList();
+                        listTest = listTest.OrderBy(m => m.Title).ToList();
                         break;
                     case "Z - A":
-                        filteredMovies = Movies.OrderByDescending(m => m.Title).ToList();
+                        listTest = listTest.OrderByDescending(m => m.Title).ToList();
                         break;
                     case "Score":
-                        filteredMovies = Movies.OrderByDescending(m => m.Rating).ToList();
+                        listTest = listTest.OrderByDescending(m => m.Rating).ToList();
                         break;
                     case "Upcoming":
-                        filteredMovies = Movies
+                        listTest = listTest
                             .Where(m => DateTime.ParseExact(m.StartDate, "dd-MM-yyyy", CultureInfo.InvariantCulture) >= currentDate)
                             .OrderBy(m => m.StartDate).ToList();
                         break;
                     case "Past":
-                        filteredMovies = Movies
+                        listTest = listTest
                             .Where(m => DateTime.ParseExact(m.StartDate, "dd-MM-yyyy", CultureInfo.InvariantCulture) < currentDate)
                             .OrderByDescending(m => m.StartDate).ToList();
                         break;
                 }
             }
-
-            Movies.Clear();
-            foreach (var movie in filteredMovies)
+            FilteredMovies.Clear();
+            foreach(MovieLibrary movie in listTest)
             {
-                Movies.Add(movie);
+                FilteredMovies.Add(movie);
             }
-
-            EntriesCount = Movies.Count;
+            EntriesCount = FilteredMovies.Count;
+            ResetCarouselPosition();
         }
 
         partial void OnSelectedSourceChanged(string value)
@@ -272,6 +170,7 @@ namespace Cinemate.ViewModels
         {
             await Shell.Current.GoToAsync(nameof(AddMovieToMyList));
         }
+
 
     }
 }

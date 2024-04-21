@@ -32,8 +32,8 @@ namespace Cinemate
             builder.Services.AddSingleton<IntroPage>();
 
             builder.Services.AddSingleton<MoviesCollection>();
-            builder.Services.AddSingleton<MoviesViewModel>();
-            builder.Services.AddSingleton<MoviesView>();
+            builder.Services.AddTransient<MoviesViewModel>();
+            builder.Services.AddTransient<MoviesView>();
 
             builder.Services.AddTransient<AddMovieToMyListViewModel>();
             builder.Services.AddTransient<AddMovieToMyList>();
