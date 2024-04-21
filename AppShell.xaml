@@ -15,9 +15,14 @@
         Route="IntroPage" />
 
     <ShellContent
-        Title="About Cinemate"
+        Title="About"
         ContentTemplate="{DataTemplate local:AboutPage}"
         Route="AboutPage" />
+
+    <ShellContent
+        Title="News"
+        ContentTemplate="{DataTemplate templates:NewsPageTemplate}"
+        Route="NewsPage" />
 
     <ShellContent
         Title="Discover movies"
@@ -28,11 +33,6 @@
         Title="Movie suggestions"
         ContentTemplate="{DataTemplate local:MovieSuggestionsPage}"
         Route="MovieSuggestionsPage" />
-
-    <ShellContent
-        Title="News"
-        ContentTemplate="{DataTemplate templates:NewsPageTemplate}"
-        Route="NewsPage" />
 
     <ShellContent
         Title="Movie collection"

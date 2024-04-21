@@ -38715,24 +38715,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\galbi\\.nuget\\packages\\": {},
+    "C:\\Users\\anama\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Cinemate.csproj",
+      "projectUniqueName": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\Cinemate.csproj",
       "projectName": "Cinemate",
-      "projectPath": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Cinemate.csproj",
-      "packagesPath": "C:\\Users\\galbi\\.nuget\\packages\\",
-      "outputPath": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\obj\\",
+      "projectPath": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\Cinemate.csproj",
+      "packagesPath": "C:\\Users\\anama\\.nuget\\packages\\",
+      "outputPath": "D:\\Master\\An 1 Sem 2\\Programarea dispozitivelor mobile\\CineMate\\Cinemate\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\galbi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
