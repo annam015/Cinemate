@@ -118,7 +118,7 @@
             <Border
                 Style="{StaticResource CoverContainerStyle}">
                 <Image 
-                    Source="{Binding MovieLibrary.Cover}"
+                    Source="{Binding MovieLibrary.CoverImage}"
                     Style="{StaticResource CoverImageStyle}"/>
             </Border>
             <Image

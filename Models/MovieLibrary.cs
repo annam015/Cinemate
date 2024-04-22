@@ -1,10 +1,13 @@
 ﻿using SQLite;
+using Microsoft.Maui.Controls;
 
 namespace Cinemate.Models
 {
     [Table("movie_list")]
     public class MovieLibrary
     {
+        private string cover;
+
         [PrimaryKey]
         [AutoIncrement]
         [Column("id")]
@@ -39,6 +42,13 @@ namespace Cinemate.Models
             get => CategoriesSerialized?.Split(',') ?? new string[0];
             set => CategoriesSerialized = string.Join(",", value);
         }
+
+        [Ignore] 
+        public ImageSource CoverImage
+        {
+            get => string.IsNullOrEmpty(Cover) ? null : ImageConverter.Base64ToImage(Cover);
+        }
+
 
         public MovieLibrary() { }
     }

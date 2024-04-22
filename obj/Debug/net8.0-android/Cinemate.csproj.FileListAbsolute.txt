@@ -1153,7 +1153,6 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-andro
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\adventure.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\animation.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\arrow_left1.png
-D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\avatar.jpg
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\background.jpg
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\bot.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\calendar.png
@@ -1165,7 +1164,6 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-andro
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\down_arrow.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\drama.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\family.png
-D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\ford_v_ferrari.jpg
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\history.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\horror.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\image1.png
@@ -1189,7 +1187,6 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-andro
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\image7.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\image8.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\image9.png
-D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\insideout.jpg
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\loading.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\music.png
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\resizetizer\r\drawable\mystery.png
@@ -2205,7 +2202,6 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-andro
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\bin\packaged_resources
-D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\src\com\companyname\cinemate\R.java
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\typemaps.x86_64.o
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\environment.x86_64.o

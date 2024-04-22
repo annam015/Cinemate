@@ -57,6 +57,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\avatar.jpg" />
+	  <MauiImage Remove="Resources\Images\ford_v_ferrari.jpg" />
+	  <MauiImage Remove="Resources\Images\insideout.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\Images\avatar.jpg" />
+	  <EmbeddedResource Include="Resources\Images\ford_v_ferrari.jpg" />
+	  <EmbeddedResource Include="Resources\Images\insideout.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="8.0.1" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="HtmlAgilityPack" Version="1.11.60" />

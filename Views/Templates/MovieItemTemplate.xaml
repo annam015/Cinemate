@@ -44,7 +44,7 @@
         <Border
             Style="{StaticResource MovieCoverStyle}">
             <Image
-                Source="{Binding Cover}"
+                Source="{Binding CoverImage}"
                 Style="{StaticResource MovieCoverImageStyle}"/>
             <Border.Shadow>
                 <Shadow 

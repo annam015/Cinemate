@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\addmovietomylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\addmovietomylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\moviedetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\moviedetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\moviesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\moviesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\viewmodels\\moviesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:viewmodels\\moviesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\movielibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:models\\movielibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\viewmodels\\moviedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:viewmodels\\moviedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\viewmodels\\addmovietomylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:viewmodels\\addmovietomylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\addmovietomylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\addmovietomylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\views\\templates\\movieitemtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:views\\templates\\movieitemtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:models\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\moviescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|solutionrelative:models\\moviescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE21393-795F-4401-8C1A-9E05090D826A}|Cinemate.csproj|d:\\ase\\programarea dispozitivelor mobile\\proiect\\cinemate\\models\\daomovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,37 +58,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "MovieDetailView.xaml",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MovieDetailView.xaml",
+              "RelativeDocumentMoniker": "Views\\MovieDetailView.xaml",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MovieDetailView.xaml",
+              "RelativeToolTip": "Views\\MovieDetailView.xaml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwHgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T22:49:01.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MoviesCollection.cs",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\MoviesCollection.cs",
+              "RelativeDocumentMoniker": "Models\\MoviesCollection.cs",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\MoviesCollection.cs",
+              "RelativeToolTip": "Models\\MoviesCollection.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAMwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:15:01.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieLibrary.cs",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\MovieLibrary.cs",
+              "RelativeDocumentMoniker": "Models\\MovieLibrary.cs",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\MovieLibrary.cs",
+              "RelativeToolTip": "Models\\MovieLibrary.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA2wDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:14:01.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "Models\\ImageConverter.cs",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\ImageConverter.cs",
+              "RelativeToolTip": "Models\\ImageConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:12:40.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BooleanToColorConverter.cs",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\BooleanToColorConverter.cs",
               "RelativeDocumentMoniker": "Models\\BooleanToColorConverter.cs",
               "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\BooleanToColorConverter.cs",
               "RelativeToolTip": "Models\\BooleanToColorConverter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T17:16:06.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoviesView.xaml",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MoviesView.xaml",
+              "RelativeDocumentMoniker": "Views\\MoviesView.xaml",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\MoviesView.xaml",
+              "RelativeToolTip": "Views\\MoviesView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T22:55:35.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddMovieToMyList.xaml",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\AddMovieToMyList.xaml",
+              "RelativeDocumentMoniker": "Views\\AddMovieToMyList.xaml",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\AddMovieToMyList.xaml",
+              "RelativeToolTip": "Views\\AddMovieToMyList.xaml",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAGwBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-21T17:12:42.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoviesViewModel.cs",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MoviesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MoviesViewModel.cs",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MoviesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MoviesViewModel.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:04:02.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieDetailViewModel.cs",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MovieDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MovieDetailViewModel.cs",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\MovieDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MovieDetailViewModel.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:18:12.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AddMovieToMyListViewModel.cs",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\AddMovieToMyListViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\AddMovieToMyListViewModel.cs",
               "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\ViewModels\\AddMovieToMyListViewModel.cs",
               "RelativeToolTip": "ViewModels\\AddMovieToMyListViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T17:14:32.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "MovieItemTemplate.xaml",
+              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\Templates\\MovieItemTemplate.xaml",
+              "RelativeDocumentMoniker": "Views\\Templates\\MovieItemTemplate.xaml",
+              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\Templates\\MovieItemTemplate.xaml",
+              "RelativeToolTip": "Views\\Templates\\MovieItemTemplate.xaml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T22:56:07.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DaoMovie.cs",
               "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Models\\DaoMovie.cs",
               "RelativeDocumentMoniker": "Models\\DaoMovie.cs",
@@ -65,19 +214,6 @@
               "ViewState": "AQIAABMAAAAAAAAAAAAowBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T17:21:53.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddMovieToMyList.xaml",
-              "DocumentMoniker": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\AddMovieToMyList.xaml",
-              "RelativeDocumentMoniker": "Views\\AddMovieToMyList.xaml",
-              "ToolTip": "D:\\Ase\\Programarea dispozitivelor mobile\\Proiect\\Cinemate\\Views\\AddMovieToMyList.xaml",
-              "RelativeToolTip": "Views\\AddMovieToMyList.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwBAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-21T17:12:42.383Z",
               "EditorCaption": ""
             }
           ]
