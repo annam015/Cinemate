@@ -9,7 +9,6 @@ namespace Cinemate.ViewModels
     public partial class AddMovieToMyListViewModel : ObservableObject, INotifyPropertyChanged
     {
         private DaoMovie daoMovie = DaoMovie.GetDaoMovie();
-        private Stream stream;
 
         public Dictionary<string,bool> CategorySelections { get; set; }
         public List<string> MovieOptions { get; set; }
@@ -38,6 +37,8 @@ namespace Cinemate.ViewModels
 
         [ObservableProperty]
         private ImageSource selectedImageSource;
+       
+        private FileResult selectedImageFile;
 
         [RelayCommand]
         private async Task PickImage()
@@ -45,15 +46,19 @@ namespace Cinemate.ViewModels
             var result = await FilePicker.PickAsync(new PickOptions
             {
                 PickerTitle = "Pick Image",
-                FileTypes = FilePickerFileType.Png
+                FileTypes = FilePickerFileType.Images
             });
 
             if (result == null)
                 return;
 
-            //var stream = await result.OpenReadAsync();
-            stream = await result.OpenReadAsync();
-            SelectedImageSource = ImageSource.FromStream(() => stream);
+            selectedImageFile = result;
+
+            SelectedImageSource = ImageSource.FromStream(() =>
+            {
+                var stream = selectedImageFile.OpenReadAsync().Result;
+                return stream;
+            });
         }
 
 
@@ -108,16 +113,17 @@ namespace Cinemate.ViewModels
             var random = new Random();
 
             if (string.IsNullOrWhiteSpace(Title) || !isRatingSet || string.IsNullOrWhiteSpace(Summary) || string.IsNullOrWhiteSpace(MyReview) ||
-                string.IsNullOrWhiteSpace(SelectedStatus) || selectedCategories == null || selectedCategories.Count == 0 || stream == null)
+            string.IsNullOrWhiteSpace(SelectedStatus) || selectedCategories == null || selectedCategories.Count == 0 || selectedImageFile == null)
             {
                 await Shell.Current.DisplayAlert("Validation Error", "Please ensure all fields including image, genre, title, rating, summary, and review are filled out and at least one genre is selected.", "OK");
                 return;
             }
 
+
             var newMovie = new MovieLibrary
             {
                 Title = this.Title,
-                Cover = ImageConverter.ImageToBase64(stream),
+                Cover = ImageConverter.ImageToBase64(selectedImageFile),
                 Rating = this.Rating,
                 Reviews = random.Next(1000, 5000),
                 Metascore = random.Next(50, 100),
@@ -132,8 +138,7 @@ namespace Cinemate.ViewModels
             await daoMovie.AddMovie(newMovie);
             Console.WriteLine("Movie added successfully.");
 
-            // await Shell.Current.GoToAsync("..");
-            await Shell.Current.GoToAsync("MoviesView");
+            await Shell.Current.GoToAsync("..");
         }
 
         [RelayCommand]

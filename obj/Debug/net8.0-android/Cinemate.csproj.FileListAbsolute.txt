@@ -292,7 +292,6 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -2224,3 +2223,4 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-andro
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
