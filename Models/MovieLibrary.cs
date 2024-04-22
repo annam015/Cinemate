@@ -6,8 +6,6 @@ namespace Cinemate.Models
     [Table("movie_list")]
     public class MovieLibrary
     {
-        private string cover;
-
         [PrimaryKey]
         [AutoIncrement]
         [Column("id")]

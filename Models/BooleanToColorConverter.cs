@@ -17,15 +17,6 @@ namespace Cinemate.Models
         {
             bool isSelected = (bool)value;
             return isSelected ? TrueColor : FalseColor;
-
-
-            //return (bool)value? TrueColor : FalseColor;
-
-            //if (value is Dictionary<string, bool> genreSelected && parameter is string genre)
-            //{
-            //    return genreSelected.TryGetValue(genre, out var isSelected) && isSelected ? TrueColor : FalseColor;
-            //}
-            //return FalseColor;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

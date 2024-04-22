@@ -32,7 +32,6 @@ namespace Cinemate.Models
         {
             try
             {
-                //return await connAsync.InsertAsync(movie);
                 var result = await connAsync.InsertAsync(movie);
                 if(result != 0)
                     Console.WriteLine($"Movie '{movie.Title}' added successfully with ID: {movie.Id}");
@@ -84,9 +83,3 @@ namespace Cinemate.Models
     }
 
 }
-
-
-//public async Task<int> AddMovieList(List<Movie> movieList)
-//{
-//    return await conn.InsertAllAsync(movieList);
-//}

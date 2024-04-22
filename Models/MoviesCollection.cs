@@ -79,24 +79,5 @@ namespace Cinemate.Models
 
         }
 
-
-        //public async Task AddToDB()
-        //{
-        //    try
-        //    {
-        //        IEnumerable<Movie> movies = GetMovies();
-        //        DaoMovie daoMovie = new DaoMovie();
-
-        //        foreach (Movie movie in movies)
-        //        {
-        //            await daoMovie.AddMovie(movie);
-        //        }
-        //    } 
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine($"Error adding movies to the database: {ex.Message}");
-        //    }
-
-        //}
     }
 }

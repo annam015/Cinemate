@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cinemate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+617eb4989839ffee6f55caf1dbd749943975d29f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f5e9bc6bd5f107f68a7cc360a1756ff88c2fda77")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cinemate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cinemate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
