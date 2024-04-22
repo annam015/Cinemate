@@ -35,7 +35,7 @@ namespace Cinemate.ViewModels
                 ArticlesList = await daoNews.GetArticles();
                 if (ArticlesList == null || !ArticlesList.Any())
                 {
-                    ArticlesList = await NewsWebScrapping.GetArticles();
+                    ArticlesList = await NewsWebScraping.GetArticles();
                     if (ArticlesList != null && ArticlesList.Any())
                     {
                         await daoNews.DeleteAllArticles();
@@ -61,7 +61,7 @@ namespace Cinemate.ViewModels
             {
                 if (article.Content == null)
                 {
-                    await NewsWebScrapping.SetArticleContent(article);
+                    await NewsWebScraping.SetArticleContent(article);
                     await daoNews.UpdateArticle(article);
                 }
                 await Shell.Current.Navigation.PushAsync(new ArticleContentPage(article));

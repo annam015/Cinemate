@@ -3,7 +3,7 @@ using HtmlAgilityPack;
 
 namespace Cinemate.Models
 {
-    class NewsWebScrapping
+    class NewsWebScraping
     {
         public static async Task<List<NewsArticle>> GetArticles()
         {
