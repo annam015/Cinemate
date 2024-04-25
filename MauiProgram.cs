@@ -27,11 +27,11 @@ namespace Cinemate
 
                 });
 
-            builder.Services.AddSingleton<ImageCollection>();
+            builder.Services.AddSingleton<Collections>();
             builder.Services.AddSingleton<IntroViewModel>();
             builder.Services.AddSingleton<IntroPage>();
 
-            builder.Services.AddSingleton<MoviesCollection>();
+           // builder.Services.AddSingleton<MoviesCollection>();
             builder.Services.AddTransient<MoviesViewModel>();
             builder.Services.AddTransient<MoviesView>();
 

@@ -81,6 +81,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\MoviesView.xaml.cs">
+	    <DependentUpon>MoviesView.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\Templates\DiscoveredMoviesTemplate.xaml.cs">
 	    <DependentUpon>DiscoveredMoviesTemplate.xaml</DependentUpon>
 	  </Compile>

@@ -52,13 +52,6 @@ namespace Cinemate.Models
                 }
                 newsArticle.Content = content;
             }
-
-            /*HtmlNode dateNode = htmlDocument.DocumentNode.SelectSingleNode("//time[contains(@class, 'c-timestamp')]");
-            if (dateNode != null)
-            {
-                string dateText = dateNode.InnerText.Trim();
-                newsArticle.Date = WebUtility.HtmlDecode(dateText);
-            }*/
         }
     }
 }

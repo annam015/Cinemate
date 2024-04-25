@@ -4,17 +4,6 @@ namespace Cinemate.Models
 {
     public class ImageConverter
     {
-        //public static string ImageToBase64(Stream imageStream)
-        //{
-        //    using (var memoryStream = new MemoryStream())
-        //    {
-        //        imageStream.CopyTo(memoryStream);
-        //        byte[] imageBytes = memoryStream.ToArray();
-        //        string base64String = Convert.ToBase64String(imageBytes);
-        //        return base64String;
-        //    }
-        //}
-
         public static string ImageToBase64(FileResult fileResult)
         {
             using (Stream imageStream = fileResult.OpenReadAsync().Result)

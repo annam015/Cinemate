@@ -26,10 +26,10 @@ namespace Cinemate.ViewModels
         public DiscoverMoviesViewModel()
         {
             GetMoviesCommand = new Command(async () => await DiscoverMovies());
-            ReleaseYears = PickerOptions.YearsList;
-            GenreOptions = PickerOptions.GenreDictionary;
+            ReleaseYears = Collections.YearsList;
+            GenreOptions = Collections.GenreDictionary;
             GenreOptionsKeys = GenreOptions.Keys.ToList();
-            SortByOptions = PickerOptions.SortByDictionary;
+            SortByOptions = Collections.SortByDictionary;
             SortOptions = SortByOptions.Keys.ToList();
         }
 

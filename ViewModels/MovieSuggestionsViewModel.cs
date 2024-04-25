@@ -23,8 +23,8 @@ namespace Cinemate.ViewModels
         public MovieSuggestionsViewModel()
         {
             GetSuggestionsCommand = new Command(async () => await GetSuggestions());
-            NumberOptions = PickerOptions.NumberList;
-            GenreOptionsKeys = PickerOptions.GenreDictionary.Keys.ToList();
+            NumberOptions = Collections.NumberList;
+            GenreOptionsKeys = Collections.GenreDictionary.Keys.ToList();
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

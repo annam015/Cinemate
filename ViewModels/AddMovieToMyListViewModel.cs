@@ -12,54 +12,10 @@ namespace Cinemate.ViewModels
         public Dictionary<string,bool> CategorySelections { get; set; }
         public List<string> MovieOptions { get; set; }
 
-        public AddMovieToMyListViewModel()
-        {
-            MovieOptions = PickerOptions.MovieStatuses;
-
-            CategorySelections = new Dictionary<string, bool>
-            {
-                { "Action", false },
-                { "Adventure", false },
-                { "Animation", false },
-                { "Comedy", false },
-                { "Crime", false },
-                { "Drama", false },
-                { "Family", false },
-                { "History", false },
-                { "Horror", false },
-                { "Music", false },
-                { "Mystery", false },
-                { "Romance", false }
-            };
-        }
-
-
         [ObservableProperty]
         private ImageSource selectedImageSource;
-       
+
         private FileResult selectedImageFile;
-
-        [RelayCommand]
-        private async Task PickImage()
-        {
-            var result = await FilePicker.PickAsync(new PickOptions
-            {
-                PickerTitle = "Pick Image",
-                FileTypes = FilePickerFileType.Images
-            });
-
-            if (result == null)
-                return;
-
-            selectedImageFile = result;
-
-            SelectedImageSource = ImageSource.FromStream(() =>
-            {
-                var stream = selectedImageFile.OpenReadAsync().Result;
-                return stream;
-            });
-        }
-
 
         [ObservableProperty]
         private string title;
@@ -88,15 +44,40 @@ namespace Cinemate.ViewModels
             }
         }
 
+        public AddMovieToMyListViewModel()
+        {
+            MovieOptions = Collections.MovieStatuses;
+            CategorySelections = Collections.CategorySelections;
+        }
+
+        [RelayCommand]
+        private async Task PickImage()
+        {
+            var result = await FilePicker.PickAsync(new PickOptions
+            {
+                PickerTitle = "Pick Image",
+                FileTypes = FilePickerFileType.Images
+            });
+
+            if (result == null)
+                return;
+
+            selectedImageFile = result;
+
+            SelectedImageSource = ImageSource.FromStream(() =>
+            {
+                var stream = selectedImageFile.OpenReadAsync().Result;
+                return stream;
+            });
+        }
+
         private double NormalizeRating(double inputRating)
         {
             double normalizedRating = Math.Abs(inputRating);
-
             while (normalizedRating > 10)
             {
                 normalizedRating -= 10;
             }
-
             return Math.Round(normalizedRating, 1);
         }
 
@@ -118,7 +99,6 @@ namespace Cinemate.ViewModels
                 return;
             }
 
-
             var newMovie = new MovieLibrary
             {
                 Title = this.Title,
@@ -136,7 +116,6 @@ namespace Cinemate.ViewModels
 
             await daoMovie.AddMovie(newMovie);
             Console.WriteLine("Movie added successfully.");
-
             await Shell.Current.GoToAsync("..");
         }
 
@@ -156,6 +135,5 @@ namespace Cinemate.ViewModels
         {
             await Shell.Current.GoToAsync("..");
         }
-
     }
 }

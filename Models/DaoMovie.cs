@@ -79,7 +79,5 @@ namespace Cinemate.Models
         {
             return connAsync.QueryAsync<MovieLibrary>("SELECT * FROM movie_list");
         }
-
     }
-
 }

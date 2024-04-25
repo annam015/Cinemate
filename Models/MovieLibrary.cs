@@ -1,5 +1,4 @@
 ﻿using SQLite;
-using Microsoft.Maui.Controls;
 
 namespace Cinemate.Models
 {
@@ -46,7 +45,6 @@ namespace Cinemate.Models
         {
             get => string.IsNullOrEmpty(Cover) ? null : ImageConverter.Base64ToImage(Cover);
         }
-
 
         public MovieLibrary() { }
     }

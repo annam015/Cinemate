@@ -9,7 +9,6 @@ namespace Cinemate.ViewModels
 {
     public partial class MoviesViewModel : ObservableObject
     {
-        private readonly MoviesCollection moviesCollection;
         private readonly DaoMovie daoMovie;
 
         [ObservableProperty]
@@ -34,20 +33,16 @@ namespace Cinemate.ViewModels
         public List<MovieLibrary> Movies { get; set; }
         public ObservableCollection<FilterOption> FilterOptions { get; } = new ObservableCollection<FilterOption>();
 
-
-
-        public MoviesViewModel(MoviesCollection moviesCollection)
+        public MoviesViewModel()
         {
-            this.moviesCollection = moviesCollection;
             daoMovie = DaoMovie.GetDaoMovie();
-
             //addMoviesToDB();
             LoadData();
         }
 
         async void addMoviesToDB()
         {
-            foreach (var movie in moviesCollection.GetMovies())
+            foreach (var movie in Collections.GetMovies())
             {
                 daoMovie.AddMovie(movie);
             }
@@ -57,11 +52,11 @@ namespace Cinemate.ViewModels
         {
             Movies = await daoMovie.GetMovies();
 
-            foreach(var source in moviesCollection.GetMovieSources())
+            foreach(var source in Collections.GetMovieSources())
             {
                 Sources.Add(source);
             }
-            foreach (string option in moviesCollection.GetFilterOptions())
+            foreach (string option in Collections.GetFilterOptions())
             {
                 FilterOptions.Add(new FilterOption { Name = option, IsSelected = false });
             }
@@ -170,7 +165,5 @@ namespace Cinemate.ViewModels
         {
             await Shell.Current.GoToAsync(nameof(AddMovieToMyList));
         }
-
-
     }
 }

@@ -8,7 +8,7 @@ namespace Cinemate.ViewModels
     [QueryProperty(nameof(MovieLibrary), "MovieLibrary")]
     public partial class MovieDetailViewModel : ObservableObject, INotifyPropertyChanged
     {
-        private MovieLibrary _movieLibrary;
+        //private MovieLibrary _movieLibrary;   --- MAI E NEVOIE DE ASTA AICI?
 
         [ObservableProperty]
         public MovieLibrary movieLibrary;
@@ -51,26 +51,6 @@ namespace Cinemate.ViewModels
                     Console.WriteLine("Movie not found in the database.");
                 await Shell.Current.GoToAsync("..");
             }
-
-
-            //if (deleteConfirmed && movieLibrary != null)
-            //{
-            //    DaoMovie daoMovie = DaoMovie.GetDaoMovie();
-            //    int result = await daoMovie.DeleteMovie(movieLibrary);
-            //    if (result > 0)
-            //        Console.WriteLine("Movie deleted successfully.");
-            //    else
-            //        Console.WriteLine("Failed to delete movie.");
-
-
-            //    var remainingMovies = await daoMovie.GetMovies();
-            //    foreach (var remainingMovie in remainingMovies)
-            //    {
-            //        Console.WriteLine($"Remaining Movie: {remainingMovie.Title}");
-            //    }
-
-            //    await Shell.Current.GoToAsync("..");
-            //}
         }
 
 
@@ -79,6 +59,5 @@ namespace Cinemate.ViewModels
         {
             await Shell.Current.GoToAsync("..");
         }
-
     }
 }
