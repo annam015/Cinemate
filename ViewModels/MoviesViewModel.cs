@@ -52,10 +52,13 @@ namespace Cinemate.ViewModels
         {
             Movies = await daoMovie.GetMovies();
 
-            foreach(var source in Collections.GetMovieSources())
+            Sources.Clear();
+            foreach (var source in Collections.GetMovieSources())
             {
                 Sources.Add(source);
             }
+
+            FilterOptions.Clear();
             foreach (string option in Collections.GetFilterOptions())
             {
                 FilterOptions.Add(new FilterOption { Name = option, IsSelected = false });

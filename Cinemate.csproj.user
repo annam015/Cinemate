@@ -56,9 +56,6 @@
     <MauiXaml Update="Views\Templates\NewsPageTemplate.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Templates\SourceItemTemplate.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">

@@ -2217,3 +2217,4 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\lp\99\jl\files.cache
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\androidx\lifecycle\runtime\R.java
+D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\src\com\companyname\cinemate\R.java
