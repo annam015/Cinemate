@@ -165,7 +165,7 @@
                 Grid.Row="0"
                 Source="delete.png"
                 Style="{StaticResource DeleteIconStyle}"
-                Margin="10,0,0,0">
+                Margin="330,0,0,0">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding DeleteMovieCommand}"/>
                 </Image.GestureRecognizers>

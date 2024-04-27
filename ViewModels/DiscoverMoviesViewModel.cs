@@ -18,15 +18,12 @@ namespace Cinemate.ViewModels
         public string Genre { get; set; }
         public string SortBy { get; set; }
 
-        //public Command GetMoviesCommand { get; set; }
-
         private List<Movie> movies;
         public List<Movie> Movies { get { return movies; } set { movies = value; OnPropertyChanged("Movies"); } }
 
 
         public DiscoverMoviesViewModel()
         {
-            //GetMoviesCommand = new Command(async () => await DiscoverMovies());
             ReleaseYears = Collections.YearsList;
             GenreOptions = Collections.GenreDictionary;
             GenreOptionsKeys = GenreOptions.Keys.ToList();

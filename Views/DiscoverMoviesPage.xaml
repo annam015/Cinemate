@@ -69,7 +69,7 @@
                     <Border Grid.Row="4" Grid.RowSpan="2" Margin="0,40,0,20" Style="{StaticResource AddButtonStyle}">
                         <Label Text="Search" Style="{StaticResource AddButtonTextStyle}"/>
                         <Border.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding GetMoviesCommand}"/>
+                            <TapGestureRecognizer Command="{Binding DiscoverMoviesCommand}"/>
                         </Border.GestureRecognizers>
                     </Border>
                 </Grid>

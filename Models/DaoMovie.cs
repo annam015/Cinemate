@@ -76,5 +76,11 @@ namespace Cinemate.Models
         {
             return connAsync.QueryAsync<MovieLibrary>("SELECT * FROM movie_list");
         }
+
+        public async Task<bool> AreMoviesAdded()
+        {
+            int movieCount = await connAsync.Table<MovieLibrary>().CountAsync();
+            return movieCount > 0;
+        }
     }
 }

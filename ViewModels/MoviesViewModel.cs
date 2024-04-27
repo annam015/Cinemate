@@ -36,21 +36,20 @@ namespace Cinemate.ViewModels
         public MoviesViewModel()
         {
             daoMovie = DaoMovie.GetDaoMovie();
-            addMoviesToDB();
+            AddMoviesToDB();
             LoadData();
         }
 
-        async void addMoviesToDB()
+        private async Task AddMoviesToDB()
         {
-            List<MovieLibrary> existingMovies = await daoMovie.GetMovies();
+            if (await daoMovie.AreMoviesAdded())
+            {
+                return;
+            }
+
             foreach (var movie in Collections.GetMovies())
             {
-                if(existingMovies.Any(m => m.Title == movie.Title))
-                    continue;
-                else
-                {
-                    daoMovie.AddMovie(movie);
-                }
+                await daoMovie.AddMovie(movie);
             }
         }
 
