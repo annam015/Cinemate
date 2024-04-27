@@ -7,7 +7,7 @@
 
     <Grid RowDefinitions="Auto,Auto" Margin="10,30,10,30">
         <Frame x:Name="SuggestionFrame" BackgroundColor="#9399C3" BorderColor="#9399C3" CornerRadius="20" Padding="10" Margin="10" Opacity="0.8" HasShadow="True"
-           WidthRequest="340" VerticalOptions="End" MaximumHeightRequest="580">
+           WidthRequest="340" VerticalOptions="End">
             <ScrollView>
                 <Label x:Name="SuggestionLabel" Text="{Binding SuggestedMovies}"
                    TextColor="White"

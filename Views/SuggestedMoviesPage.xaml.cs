@@ -18,7 +18,7 @@ public partial class SuggestedMoviesPage : ContentPage
         if (label != null)
         {
             var requiredHeight = label.Height;
-            SuggestionFrame.HeightRequest = Math.Min(requiredHeight + 20, 580);
+            SuggestionFrame.HeightRequest = Math.Min(requiredHeight + 20, 500);
         }
     }
 }
