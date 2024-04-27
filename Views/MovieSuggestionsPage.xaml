@@ -38,7 +38,7 @@
         <Path Grid.Row="0" Aspect="Fill" Fill="#9399C3" Stroke="#9399C3" Margin="0,0,0,-50"
               Data="M 211.5157012939453 506.2601013183594 L 211.5157012939453 154.91004943847656 L 652.75048828125 154.91004943847656 L 652.75048828125 500.3701171875 C 506.6836853027344 594.9873657226562 359.6053771972656 596.95068359375 211.5157012939453 506.2601013183594 Z"/>
 
-        <Frame Grid.Row="1" BackgroundColor="White" BorderColor="#9399C3" HasShadow="True" HeightRequest="680" Padding="0" Margin="10,-30,10,20" CornerRadius="20">
+        <Frame Grid.Row="1" BackgroundColor="White" BorderColor="#9399C3" HasShadow="True" HeightRequest="600" Padding="0" Margin="10,-30,10,20" CornerRadius="20">
             <ScrollView>
                 <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto">
 
@@ -75,7 +75,7 @@
                     <!--Favorite movie(s)-->
                     <Grid Grid.Row="3" RowDefinitions="*,*" HorizontalOptions="Fill" VerticalOptions="Start" Margin="10,40,10,0">
                         <Label Grid.Row="0" Text="Favorite movie(s):" FontSize="15" FontAttributes="Bold" VerticalOptions="Center"/>
-                        <Frame Grid.Row="1" HeightRequest="200" WidthRequest="290" Padding="-5" Margin="0,15,0,0" BorderColor="{StaticResource Gray100}" BackgroundColor="Transparent" HasShadow="False" CornerRadius="5">
+                        <Frame Grid.Row="1" HeightRequest="130" WidthRequest="290" Padding="-5" Margin="0,15,0,0" BorderColor="{StaticResource Gray100}" BackgroundColor="Transparent" HasShadow="False" CornerRadius="5">
                             <Editor Text="{Binding FavMovies}" BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Placeholder="Enter you favorite movie(s)"/>
                         </Frame>
                     </Grid>

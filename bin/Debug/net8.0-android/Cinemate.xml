@@ -76,6 +76,15 @@
         <member name="P:Cinemate.ViewModels.AddMovieToMyListViewModel.GoBackCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.AddMovieToMyListViewModel.GoBack"/>.</summary>
         </member>
+        <member name="T:Cinemate.ViewModels.DiscoverMoviesViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Cinemate.ViewModels.DiscoverMoviesViewModel.discoverMoviesCommand">
+            <summary>The backing field for <see cref="P:Cinemate.ViewModels.DiscoverMoviesViewModel.DiscoverMoviesCommand"/>.</summary>
+        </member>
+        <member name="P:Cinemate.ViewModels.DiscoverMoviesViewModel.DiscoverMoviesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.DiscoverMoviesViewModel.DiscoverMovies"/>.</summary>
+        </member>
         <member name="T:Cinemate.ViewModels.MovieDetailViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -95,6 +104,15 @@
         </member>
         <member name="P:Cinemate.ViewModels.MovieDetailViewModel.GoBackCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.MovieDetailViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:Cinemate.ViewModels.MovieSuggestionsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Cinemate.ViewModels.MovieSuggestionsViewModel.getSuggestionsCommand">
+            <summary>The backing field for <see cref="P:Cinemate.ViewModels.MovieSuggestionsViewModel.GetSuggestionsCommand"/>.</summary>
+        </member>
+        <member name="P:Cinemate.ViewModels.MovieSuggestionsViewModel.GetSuggestionsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Cinemate.ViewModels.MovieSuggestionsViewModel.GetSuggestions"/>.</summary>
         </member>
         <member name="T:Cinemate.ViewModels.MoviesViewModel">
             <inheritdoc/>

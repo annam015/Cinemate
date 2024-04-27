@@ -1,11 +1,12 @@
 ﻿using Cinemate.Models;
 using Cinemate.Services;
 using Cinemate.Views;
+using CommunityToolkit.Mvvm.Input;
 using System.ComponentModel;
 
 namespace Cinemate.ViewModels
 { 
-    public class MovieSuggestionsViewModel : INotifyPropertyChanged
+    public partial class MovieSuggestionsViewModel : INotifyPropertyChanged
     {
         public List<string> GenreOptionsKeys { get; set; }
         public List<string> NumberOptions { get; set; }
@@ -15,14 +16,14 @@ namespace Cinemate.ViewModels
         public string Genre { get; set; }
         public string NoYearsPublished { get; set; }
 
-        public Command GetSuggestionsCommand { get; set; }
+        //public Command GetSuggestionsCommand { get; set; }
 
         private string suggestions;
         public string Suggestions { get { return suggestions; } set { suggestions = value; OnPropertyChanged("Suggestions"); } }
 
         public MovieSuggestionsViewModel()
         {
-            GetSuggestionsCommand = new Command(async () => await GetSuggestions());
+            //GetSuggestionsCommand = new Command(async () => await GetSuggestions());
             NumberOptions = Collections.NumberList;
             GenreOptionsKeys = Collections.GenreDictionary.Keys.ToList();
         }
@@ -34,6 +35,7 @@ namespace Cinemate.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        [RelayCommand]
         private async Task GetSuggestions()
         {
             if (NoSuggestions == null || FavMovies == null || Genre == null || NoYearsPublished == null)

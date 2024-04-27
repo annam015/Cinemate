@@ -1,10 +1,11 @@
 ﻿using Cinemate.Models;
 using Cinemate.Views.Templates;
+using CommunityToolkit.Mvvm.Input;
 using System.ComponentModel;
 
 namespace Cinemate.ViewModels
 {
-    public class DiscoverMoviesViewModel : INotifyPropertyChanged
+    public partial class DiscoverMoviesViewModel : INotifyPropertyChanged
     {
         private Dictionary<string, int> GenreOptions { get; set; }
         private Dictionary<string, string> SortByOptions { get; set; }
@@ -17,7 +18,7 @@ namespace Cinemate.ViewModels
         public string Genre { get; set; }
         public string SortBy { get; set; }
 
-        public Command GetMoviesCommand { get; set; }
+        //public Command GetMoviesCommand { get; set; }
 
         private List<Movie> movies;
         public List<Movie> Movies { get { return movies; } set { movies = value; OnPropertyChanged("Movies"); } }
@@ -25,7 +26,7 @@ namespace Cinemate.ViewModels
 
         public DiscoverMoviesViewModel()
         {
-            GetMoviesCommand = new Command(async () => await DiscoverMovies());
+            //GetMoviesCommand = new Command(async () => await DiscoverMovies());
             ReleaseYears = Collections.YearsList;
             GenreOptions = Collections.GenreDictionary;
             GenreOptionsKeys = GenreOptions.Keys.ToList();
@@ -40,6 +41,7 @@ namespace Cinemate.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        [RelayCommand]
         private async Task DiscoverMovies()
         {
             if(ReleaseYear == null || Genre == null || SortBy == null)
