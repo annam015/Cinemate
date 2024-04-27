@@ -4,8 +4,8 @@ namespace Cinemate.Models
 {
     public class DaoMovie
     {
-        static DaoMovie daoMovie;
-        SQLiteAsyncConnection connAsync;
+        private static DaoMovie daoMovie;
+        private SQLiteAsyncConnection connAsync;
 
         private DaoMovie()
         {
@@ -19,10 +19,9 @@ namespace Cinemate.Models
             {
                 daoMovie = new DaoMovie();
             }
-
             return daoMovie;
-
         }
+
         public async Task<MovieLibrary> FindMovieById(int id)
         {
             return await connAsync.FindAsync<MovieLibrary>(id);
@@ -37,7 +36,6 @@ namespace Cinemate.Models
                     Console.WriteLine($"Movie '{movie.Title}' added successfully with ID: {movie.Id}");
                 else
                     Console.WriteLine("Failed to add the movie.");
-
                 return movie.Id;
             }
             catch (Exception ex)
@@ -73,7 +71,6 @@ namespace Cinemate.Models
                 return 0;
             }
         }
-
 
         public Task<List<MovieLibrary>> GetMovies()
         {

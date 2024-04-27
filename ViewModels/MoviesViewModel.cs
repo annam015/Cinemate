@@ -36,7 +36,7 @@ namespace Cinemate.ViewModels
         public MoviesViewModel()
         {
             daoMovie = DaoMovie.GetDaoMovie();
-            //addMoviesToDB();
+            addMoviesToDB();
             LoadData();
         }
 

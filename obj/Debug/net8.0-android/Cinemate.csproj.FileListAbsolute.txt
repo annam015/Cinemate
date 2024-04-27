@@ -1445,7 +1445,6 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -1683,7 +1682,6 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\AndroidManifest.xml
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\AndroidManifest.xml
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -1693,7 +1691,6 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\static.flag
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\__environment__.txt
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\buildid.txt
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\environment.x86_64.ll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -2198,13 +2195,6 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\bin\packaged_resources
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\com\companyname\cinemate\R.java
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\typemaps.x86_64.o
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\environment.x86_64.o
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\bin\classes.dex
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\bin\classes2.dex
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -2218,3 +2208,13 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\lp\99\jl\files.cache
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\androidx\lifecycle\runtime\R.java
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\src\com\companyname\cinemate\R.java
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\environment.x86_64.ll
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\environment.x86_64.o
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so

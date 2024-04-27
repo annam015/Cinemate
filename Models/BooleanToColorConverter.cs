@@ -24,5 +24,4 @@ namespace Cinemate.Models
             throw new NotImplementedException();
         }
     }
-
 }

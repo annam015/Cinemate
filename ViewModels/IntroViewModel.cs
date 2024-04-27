@@ -23,7 +23,6 @@ namespace Cinemate.Models
         void LoadMoreArtCollection01()
         {
             var imgCollection01 = Collections.GetImgCollection01();
-
             foreach (var item in imgCollection01)
             {
                 ImgCollection01.Add(item);
@@ -34,7 +33,6 @@ namespace Cinemate.Models
         void LoadMoreArtCollection02()
         {
             var imgCollection02 = Collections.GetImgCollection02();
-
             foreach (var item in imgCollection02)
             {
                 ImgCollection02.Add(item);
@@ -45,7 +43,6 @@ namespace Cinemate.Models
         void LoadMoreArtCollection03()
         {
             var imgCollection03 = Collections.GetImgCollection03();
-
             foreach (var item in imgCollection03)
             {
                 ImgCollection03.Add(item);

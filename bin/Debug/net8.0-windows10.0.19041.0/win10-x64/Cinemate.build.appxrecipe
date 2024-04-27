@@ -40,6 +40,336 @@
     <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Teko-Bold.ttf">
+      <PackagePath>Teko-Bold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Teko-Light.ttf">
+      <PackagePath>Teko-Light.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Teko-Medium.ttf">
+      <PackagePath>Teko-Medium.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Teko-Regular.ttf">
+      <PackagePath>Teko-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Teko-SemiBold.ttf">
+      <PackagePath>Teko-SemiBold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image19.scale-100.png">
+      <PackagePath>image19.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image16.scale-100.png">
+      <PackagePath>image16.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendar.scale-100.png">
+      <PackagePath>calendar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image6.scale-100.png">
+      <PackagePath>image6.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image5.scale-100.png">
+      <PackagePath>image5.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2.scale-100.png">
+      <PackagePath>image2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image17.scale-100.png">
+      <PackagePath>image17.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image14.scale-100.png">
+      <PackagePath>image14.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image4.scale-100.png">
+      <PackagePath>image4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image18.scale-100.png">
+      <PackagePath>image18.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bot.scale-100.png">
+      <PackagePath>bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_star.scale-400.png">
+      <PackagePath>ic_star.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_star.scale-200.png">
+      <PackagePath>ic_star.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_star.scale-150.png">
+      <PackagePath>ic_star.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_star.scale-125.png">
+      <PackagePath>ic_star.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_star.scale-100.png">
+      <PackagePath>ic_star.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image7.scale-100.png">
+      <PackagePath>image7.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image20.scale-100.png">
+      <PackagePath>image20.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_image.scale-100.png">
+      <PackagePath>add_image.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.png">
+      <PackagePath>loading.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image21.scale-100.png">
+      <PackagePath>image21.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image10.scale-100.png">
+      <PackagePath>image10.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image8.scale-100.png">
+      <PackagePath>image8.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image3.scale-100.png">
+      <PackagePath>image3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.jpg">
+      <PackagePath>background.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image9.scale-100.png">
+      <PackagePath>image9.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image11.scale-100.png">
+      <PackagePath>image11.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\music.scale-100.png">
+      <PackagePath>music.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\action.scale-100.png">
+      <PackagePath>action.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\romance.scale-100.png">
+      <PackagePath>romance.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image15.scale-100.png">
+      <PackagePath>image15.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mystery.scale-100.png">
+      <PackagePath>mystery.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image13.scale-100.png">
+      <PackagePath>image13.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sci_fi.scale-100.png">
+      <PackagePath>sci_fi.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image12.scale-100.png">
+      <PackagePath>image12.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\submit.scale-100.png">
+      <PackagePath>submit.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\about.scale-100.png">
+      <PackagePath>about.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\up_arrow.scale-100.png">
+      <PackagePath>up_arrow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adventure.scale-100.png">
+      <PackagePath>adventure.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\drama.scale-100.png">
+      <PackagePath>drama.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\crime.scale-100.png">
+      <PackagePath>crime.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\documentary.scale-100.png">
+      <PackagePath>documentary.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\comedy.scale-100.png">
+      <PackagePath>comedy.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image1.scale-100.png">
+      <PackagePath>image1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\down_arrow.scale-100.png">
+      <PackagePath>down_arrow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_left1.scale-100.png">
+      <PackagePath>arrow_left1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dot.scale-100.png">
+      <PackagePath>dot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\animation.scale-100.png">
+      <PackagePath>animation.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-100.png">
+      <PackagePath>delete.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\history.scale-100.png">
+      <PackagePath>history.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\horror.scale-100.png">
+      <PackagePath>horror.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\family.scale-100.png">
+      <PackagePath>family.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Cinemate.deps.json">
       <PackagePath>Cinemate.deps.json</PackagePath>
     </AppxPackagedFile>

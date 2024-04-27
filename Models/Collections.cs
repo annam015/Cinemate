@@ -121,6 +121,6 @@
                 { "Music", false },
                 { "Mystery", false },
                 { "Romance", false }
-            };
-}
+        };
+    }
 }

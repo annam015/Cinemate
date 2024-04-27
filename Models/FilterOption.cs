@@ -7,6 +7,7 @@ namespace Cinemate.Models
         public string Name { get; set; }
 
         private bool isSelected;
+
         public bool IsSelected
         {
             get => isSelected;

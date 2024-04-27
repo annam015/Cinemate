@@ -148,7 +148,7 @@
                     Text=" Keep track of favorites, stay updated with news, and discover tailored recommendations."
                     Style="{StaticResource DescriptionTextStyle}"/>
             </Grid>
-        </Grid>       
+        </Grid>
     </Grid>
 
 </ContentPage>

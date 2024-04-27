@@ -8,7 +8,6 @@ namespace Cinemate.ViewModels
     public partial class AddMovieToMyListViewModel : ObservableObject, INotifyPropertyChanged
     {
         private DaoMovie daoMovie = DaoMovie.GetDaoMovie();
-
         public Dictionary<string,bool> CategorySelections { get; set; }
         public List<string> MovieOptions { get; set; }
 

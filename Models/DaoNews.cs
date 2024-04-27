@@ -4,7 +4,7 @@ namespace Cinemate.Models
 {
     public class DaoNews
     {
-        SQLiteAsyncConnection connAsync;
+        private SQLiteAsyncConnection connAsync;
 
         public DaoNews()
         {

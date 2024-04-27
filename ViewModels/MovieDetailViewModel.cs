@@ -8,7 +8,6 @@ namespace Cinemate.ViewModels
     [QueryProperty(nameof(MovieLibrary), "MovieLibrary")]
     public partial class MovieDetailViewModel : ObservableObject, INotifyPropertyChanged
     {
-        //private MovieLibrary _movieLibrary;   --- MAI E NEVOIE DE ASTA AICI?
 
         [ObservableProperty]
         public MovieLibrary movieLibrary;
@@ -52,7 +51,6 @@ namespace Cinemate.ViewModels
                 await Shell.Current.GoToAsync("..");
             }
         }
-
 
         [RelayCommand]
         async Task GoBack()
