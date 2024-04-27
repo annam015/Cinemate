@@ -2199,7 +2199,6 @@ D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Deb
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\lp\99\jl\files.cache
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\src\androidx\lifecycle\runtime\R.java
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\src\com\companyname\cinemate\R.java
-D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\environment.x86_64.ll
 D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
@@ -2218,3 +2217,4 @@ D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-andro
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\marshal_methods.armeabi-v7a.o
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\android\jni_remap.armeabi-v7a.o
 D:\Ase\Programarea dispozitivelor mobile\Proiect\Cinemate\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+D:\Master\An 1 Sem 2\Programarea dispozitivelor mobile\Cinemate\Cinemate\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
