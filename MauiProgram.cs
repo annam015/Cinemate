@@ -20,11 +20,6 @@ namespace Cinemate
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("Teko-Bold.ttf", "TekoBold");
-                    fonts.AddFont("Teko-Light.ttf", "TekoLight");
-                    fonts.AddFont("Teko-Medium.ttf", "TekoMedium");
-                    fonts.AddFont("Teko-Regular.ttf", "TekoRegular");
-                    fonts.AddFont("Teko-SemiBold.ttf", "TekoSemiBold");
-
                 });
 
             builder.Services.AddSingleton<Collections>();
