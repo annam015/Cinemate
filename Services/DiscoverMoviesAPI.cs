@@ -26,7 +26,7 @@ namespace Cinemate.Models
                     Headers =
                     {
                         {"accept", "application/json"},
-                        {"Authorization", API.Bearer_Token}
+                        {"Authorization", YOUR_BEARER_TOKEN}
                     }
                 };
                 using (HttpResponseMessage response = await client.SendAsync(request))
