@@ -18,7 +18,7 @@ namespace Cinemate.Services
                         Content = new StringContent("{\"message\": \"Give me " + noSuggestions + " movie suggestions based on the following answears: My favourite movie(s) is/are: " + favMovies + ". I want to see a(n) " + genMovies + " movie that was released in the last " + noYears + " years.\", \"history\": [], \"stream\": true}", Encoding.UTF8, "application/json")
                     };
 
-                    request.Headers.Add("x-api-key", API.X_API_KEY);
+                    request.Headers.Add("x-api-key", YOUR_X_API_KEY);
 
                     HttpResponseMessage response = await client.SendAsync(request);
                     if (!response.IsSuccessStatusCode)
